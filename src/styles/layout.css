@@ -1,0 +1,9 @@
+.about-split{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+@media (max-width: 900px){.about-split{grid-template-columns:1fr}}
+.contact-grid{display:grid;grid-template-columns:2fr 1fr;gap:24px}
+@media (max-width: 900px){.contact-grid{grid-template-columns:1fr}}
+.input, textarea{
+  width:100%;padding:12px 14px;border-radius:12px;border:1px solid #e7e2da;background:#fff;font:inherit
+}
+textarea{min-height:140px;resize:vertical}
+.mini{font-size:12px;opacity:.8}

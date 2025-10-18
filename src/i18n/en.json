@@ -1,0 +1,189 @@
+{
+  "brand": "Legal Nest Thai",
+  "nav": {
+    "about": "About",
+    "services": "Services",
+    "articles": "Articles",
+    "contact": "Contact",
+    "language": "Language"
+  },
+  "hero": {
+    "title": "Legal & Litigation Consulting",
+    "desc": "Our experienced lawyers provide free initial consultation, documentation, filing and defense, mediation across Thailand."
+  },
+  "cta": {
+    "free": "Free Consultation",
+    "send": "Send",
+    "more": "More"
+  },
+  "topics": {
+    "title": "Articles",
+    "lawFirmTitle": "Law Firm",
+    "practiceTitle": "Practice",
+    "lawfirm": [
+      "Investment fraud case",
+      "Embezzlement case",
+      "Spouse infidelity case",
+      "Estate administration",
+      "Will & testament",
+      "Employer tricked into resignation",
+      "Company registration in Thailand",
+      "Can't afford car loan"
+    ],
+    "practice": [
+      "Credit card debt",
+      "How to change name",
+      "Marriage registration with foreigner",
+      "How to get student enrollment in Thailand",
+      "Business permits in Thailand",
+      "How to get court certification",
+      "Scammed by Thai business partner",
+      "How to own condo in Thailand"
+    ]
+  },
+  "services": {
+    "title": "Our Services",
+    "items": [
+      {
+        "title": "Civil Cases",
+        "desc": "Contract, property rights, enforcement, etc."
+      },
+      {
+        "title": "Criminal Cases",
+        "desc": "Bail, case defense, legal opinions, etc."
+      },
+      {
+        "title": "Consumer Cases",
+        "desc": "Product purchase, services, finance, telecom, etc."
+      },
+      {
+        "title": "Labor Cases",
+        "desc": "Termination, compensation, wages & benefits, etc."
+      },
+      {
+        "title": "Family/Inheritance",
+        "desc": "Divorce, custody, inheritance, etc."
+      },
+      {
+        "title": "Bankruptcy Cases",
+        "desc": "Personal/corporate bankruptcy, enforcement"
+      },
+      {
+        "title": "Tax Cases",
+        "desc": "Income tax, VAT, business/industry, etc."
+      },
+      {
+        "title": "Legal Acts & Contracts",
+        "desc": "Purchase/lease agreements, commercial contracts, etc."
+      },
+      {
+        "title": "Business & Investment",
+        "desc": "Income tax, VAT, business/industry, etc."
+      },
+      {
+        "title": "Company Registration",
+        "desc": "Company establishment/dissolution registration, etc."
+      },
+      {
+        "title": "Intellectual Property",
+        "desc": "Trademarks, copyrights, etc."
+      },
+      {
+        "title": "Investment",
+        "desc": "Real estate, large projects, deal structure"
+      },
+      {
+        "title": "Visa and Work Permit Services",
+        "desc": "Student visa, tourist visa, marriage visa"
+      }
+    ]
+  },
+  "about": {
+    "title": "About Us",
+    "desc": "Our legal team provides comprehensive support from initial free consultation, document preparation, filing lawsuits, case defense, to mediation and negotiation across civil, criminal, labor, intellectual property, family, inheritance, bankruptcy, consumer, and administrative cases."
+  },
+  "contact": {
+    "title": "Book a Professional Lawyer",
+    "subtitle": "Leave your details and we will contact you within 1 business day.",
+    "name": "First Name",
+    "lastname": "Last Name",
+    "email": "Email",
+    "phone": "812345678",
+    "topic": "Subject",
+    "message": "Message",
+    "addressTitle": "Legal Nest Thai",
+    "addr1": "382 Nice Building 2, Romklao Rd, Khlong Sam Prawet, Lat Krabang",
+    "addr2": "Bangkok 10520",
+    "hours": "Hours: Mon–Fri 09:00–18:00",
+    "topicOptions": [
+      "Civil Cases",
+      "Criminal Cases",
+      "Consumer Cases",
+      "Labor Cases",
+      "Family/Inheritance",
+      "Intellectual Property",
+      "Bankruptcy Cases",
+      "Tax Cases",
+      "Legal Acts & Contracts",
+      "Business & Investment",
+      "Company Registration",
+      "Investment",
+      "Visa & Work Permit",
+      "Other"
+    ],
+    "successMessage": "Message sent successfully! We will contact you as soon as possible",
+    "errorMessage": "An error occurred. Please try again"
+  },
+  "footer": {
+    "officeTitle": "Office Location",
+    "address": "382 Nice Building 2",
+    "district": "Ratchadaphisek Road",
+    "subDistrict": "Ratchadaphisek, Din Daeng",
+    "city": "Bangkok 10400",
+    "contactTitle": "Contact Us",
+    "phone1": "Tel : 02-123-4567",
+    "phone2": "Tel : 02-123-4567",
+    "mobile": "Tel : 090-912-3456",
+    "email": "info@legalconsult.co.th",
+    "hours": "Business Hours Mon-Fri 09:00-18:00",
+    "mapTitle": "Map",
+    "viewLarger": "View larger map"
+  },
+  "mega": {
+    "groups": [
+      {
+        "items": [
+          { "title": "Civil Cases", "detail": "Contract, debt collection, enforcement, etc." },
+          { "title": "Labor Cases", "detail": "Termination, compensation, wages & benefits, etc." },
+          { "title": "Bankruptcy Cases", "detail": "Personal/corporate bankruptcy, enforcement stage" },
+          { "title": "Business & Investment", "detail": "Business license applications, etc." }
+        ]
+      },
+      {
+        "items": [
+          { "title": "Criminal Cases", "detail": "Bail, case defense, legal opinions, etc." },
+          { "title": "Family/Inheritance", "detail": "Divorce, custody, inheritance, etc." },
+          { "title": "Tax Cases", "detail": "Income tax, VAT, business/industry, etc." },
+          { "title": "Company Registration", "detail": "Company establishment/dissolution registration, etc." }
+        ]
+      },
+      {
+        "items": [
+          { "title": "Consumer Cases", "detail": "Product purchase, services, finance, telecom, etc." },
+          { "title": "Intellectual Property", "detail": "Trademarks, copyrights, etc." },
+          { "title": "Legal Acts & Contracts", "detail": "Purchase/lease agreements, commercial contracts, etc." },
+          { "title": "Investment", "detail": "Real estate, large projects, deal structure" }
+        ]
+      },
+      {
+        "items": [
+          { "title": "Visa & Work Permit Consultation", "detail": "Student visa, tourist visa, marriage visa" }
+        ]
+      }
+    ],
+    "ctaLeft": "Visa & Translation Services",
+    "ctaLeftSub": "Student visa, tourist visa, marriage visa",
+    "ctaMain": "Free Legal Consultation",
+    "ctaMainSub": "Explain your case and get initial advice"
+  }
+}
