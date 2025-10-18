@@ -966,6 +966,46 @@ footer .container {
   .mega-ctas{flex-wrap:wrap}
 }
 
+/* ===== Mobile layout fixes to prevent horizontal overflow ===== */
+@media (max-width:720px) {
+  /* Decorative oversized lines that extend past viewport */
+  .contact-section-title::after,
+  .contact-subtitle::after {
+    display: none;
+  }
+
+  /* Reset about section offsets which caused overflow */
+  .about-container,
+  .about-content,
+  .about-image-wrapper {
+    margin: 0 auto;
+    max-width: 100%;
+    box-shadow: none;
+    position: static;
+  }
+  .about-content {
+    padding: 24px;
+  }
+  .about-content::before,
+  .about-image-wrapper::after {
+    display: none;
+  }
+
+  /* Ensure mega panel doesn't overflow on small screens */
+  .mega-panel {
+    width: auto !important;
+    max-width: calc(100vw - 32px) !important;
+    left: 16px !important;
+    right: 16px !important;
+    transform: none !important;
+  }
+
+  /* Prevent any horizontal scrolling introduced by absolute elements */
+  html, body {
+    overflow-x: hidden;
+  }
+}
+
 @media (max-width:480px){
   .brand .logo{width: 45px; height: 45px;}
   .brand-text{font-size: 14px;}
