@@ -1321,14 +1321,25 @@ footer .container {
   .services-slide{grid-template-columns:repeat(2,1fr)}
 }
 @media (max-width:640px){
-  .services-slide{grid-template-columns:1fr}
+  .services-slide{
+    grid-template-columns:1fr;
+    gap: 32px !important;  /* เพิ่มระยะห่างระหว่างการ์ด */
+  }
   .svc-nav{display:none}
-  .services-section{background:#54301D}
+  .services-section{
+    background:#54301D;
+    padding: 60px 20px !important;  /* เพิ่ม padding ด้านข้าง */
+  }
   .service-card{
-    padding: 24px 20px;
+    padding: 28px 24px;  /* เพิ่ม padding ในการ์ด */
+    margin-bottom: 8px;  /* เพิ่มระยะห่างเล็กน้อย */
   }
   .service-card h4{
     font-size: 18px;
+    margin-bottom: 12px;  /* เพิ่มระยะห่างใต้หัวข้อ */
+  }
+  .service-card p {
+    line-height: 1.7;  /* เพิ่มความสูงบรรทัด */
   }
 }
 
@@ -1521,6 +1532,13 @@ footer .container {
   width: 400px;
   height: 2px;
   background: linear-gradient(90deg, #E5C061 0%, #F2D37C 50%, #B4831E 100%);
+}
+
+/* ซ่อนเส้นทองในหน้าจอที่เล็กกว่า 1400px */
+@media (max-width: 1400px) {
+  .contact-section-title::after {
+    display: none;
+  }
 }
 
 .contact-container {
