@@ -1,5 +1,6 @@
 import React from 'react'
 import { useI18n } from "../i18n";
+import lawyerImage from '../assets/ทนายความ.jpg'
 
 export default function About(){
   const { t } = useI18n()
@@ -17,7 +18,7 @@ export default function About(){
         <div className="about-image-wrapper">
           <div className="about-image-border"></div>
           <img 
-            src="/src/assets/ทนายความ.jpg" 
+            src={lawyerImage} 
             alt="ทนายความ"
             className="about-lawyer-image"
           />
