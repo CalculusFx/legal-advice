@@ -1,3 +1,13 @@
+# Dependencies
+node_modules
+package-lock.json
+
+# Build output
+dist
+dist-ssr
+build
+*.local
+
 # Logs
 logs
 *.log
@@ -6,11 +16,6 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-
-node_modules
-dist
-dist-ssr
-*.local
 
 # Editor directories and files
 .vscode/*
@@ -23,10 +28,27 @@ dist-ssr
 *.sln
 *.sw?
 
-# Environment variables
+# macOS
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+
+# Environment variables (ไม่ให้ขึ้น Git เพราะมีข้อมูลสำคัญ เช่น SMTP password)
 .env
 .env.local
 .env.production
+.env.*.local
 
 # Netlify
 .netlify
+.netlify.toml.backup
+
+# Temporary files
+*.tmp
+*.temp
+.cache
+
+# Testing
+coverage
+.nyc_output
