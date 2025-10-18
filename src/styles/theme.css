@@ -968,27 +968,46 @@ footer .container {
 
 /* ===== Mobile layout fixes to prevent horizontal overflow ===== */
 @media (max-width:720px) {
+  /* Prevent any horizontal scrolling */
+  html, body {
+    overflow-x: hidden;
+    max-width: 100vw;
+  }
+
   /* Decorative oversized lines that extend past viewport */
   .contact-section-title::after,
-  .contact-subtitle::after {
+  .contact-subtitle::after,
+  .services-section::after,
+  .footer-title::after {
     display: none;
   }
 
   /* Reset about section offsets which caused overflow */
-  .about-container,
-  .about-content,
-  .about-image-wrapper {
-    margin: 0 auto;
-    max-width: 100%;
-    box-shadow: none;
-    position: static;
+  .about-container {
+    grid-template-columns: 1fr;
+    padding: 0 16px;
   }
+  
   .about-content {
-    padding: 24px;
+    margin: 0 !important;
+    padding: 24px !important;
+    box-shadow: none !important;
   }
+  
+  .about-image-wrapper {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
   .about-content::before,
   .about-image-wrapper::after {
-    display: none;
+    display: none !important;
+  }
+
+  .about-lawyer-image {
+    width: 100%;
+    max-width: 100%;
+    box-shadow: none !important;
   }
 
   /* Ensure mega panel doesn't overflow on small screens */
@@ -1000,9 +1019,42 @@ footer .container {
     transform: none !important;
   }
 
-  /* Prevent any horizontal scrolling introduced by absolute elements */
-  html, body {
-    overflow-x: hidden;
+  /* Fix services section */
+  .services-section .title .pill {
+    font-size: 18px !important;
+    padding: 8px 16px !important;
+  }
+
+  /* Fix articles section title */
+  #articles .title .pill {
+    font-size: 18px !important;
+    padding: 8px 16px !important;
+  }
+
+  #articles .card {
+    padding: 32px 16px 24px !important;
+  }
+
+  #articles .card h3::after {
+    width: 60% !important;
+  }
+
+  /* Fix contact form */
+  .contact-section {
+    padding: 48px 16px !important;
+  }
+
+  .contact-container {
+    padding: 0 !important;
+  }
+
+  .contact-btn {
+    width: 100% !important;
+  }
+
+  /* Fix footer */
+  .footer-wrapper {
+    padding: 24px 16px !important;
   }
 }
 
