@@ -2,6 +2,7 @@ import React from "react";
 import { useI18n } from "../i18n";
 import MegaMenu from "./MegaMenu";
 import logo from "../assets/logo.png";
+import bgHeader from "../assets/BG Header.png";
 
 export default function Header() {
   const { t, lang, setLang, dictKeys } = useI18n();
@@ -9,8 +10,18 @@ export default function Header() {
   const [megaOpen, setMegaOpen] = React.useState(false);
   const [langOpen, setLangOpen] = React.useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = React.useState(false);
+  const [isScrolled, setIsScrolled] = React.useState(false);
   const timer = React.useRef(null);
   const langTimer = React.useRef(null);
+
+  // Detect scroll to add sticky background
+  React.useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 50);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   // ข้อมูลภาษาพร้อมธงชาติ
   const languages = {
@@ -47,7 +58,7 @@ export default function Header() {
   };
 
   return (
-    <header className="sticky" onKeyDown={(e)=> e.key === "Escape" && close()}>
+    <header className={isScrolled ? "sticky" : ""} onKeyDown={(e)=> e.key === "Escape" && close()}>
       <div className="container nav">
         <a className="brand" href="#top" aria-label="Legal Nest Thai - Home">
           <img src={logo} alt="Legal Nest Thai" className="logo" />
