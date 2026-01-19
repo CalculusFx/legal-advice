@@ -46,55 +46,108 @@
     "items": [
       {
         "title": "民事案件",
-        "desc": "合同、产权、强制执行等"
+        "desc": "合同、产权、强制执行等",
+        "link": "/services/คดีความ/1"
       },
       {
         "title": "刑事案件",
-        "desc": "保释、案件辩护、法律意见等"
+        "desc": "保释、案件辩护、法律意见等",
+        "link": "/services/คดีความ/2"
       },
       {
         "title": "消费者案件",
-        "desc": "商品购买、服务、金融、电信等"
+        "desc": "商品购买、服务、金融、电信等",
+        "link": "/services/คดีความ/3"
       },
       {
         "title": "劳动案件",
-        "desc": "解雇、赔偿、工资及福利等"
+        "desc": "解雇、赔偿、工资及福利等",
+        "link": "/services/คดีความ/4"
       },
       {
-        "title": "家庭/继承",
-        "desc": "离婚、监护权、继承等"
+        "title": "青少年和家庭案件",
+        "desc": "离婚、监护权、继承等",
+        "link": "/services/คดีความ/5"
       },
       {
         "title": "破产案件",
-        "desc": "个人/企业破产、强制执行"
+        "desc": "个人/企业破产、强制执行",
+        "link": "/services/คดีความ/7"
       },
       {
         "title": "税务案件",
-        "desc": "所得税、增值税、商业/工业等"
+        "desc": "所得税、增值税、商业/工业等",
+        "link": "/services/คดีความ/8"
       },
       {
         "title": "法律行为与合同",
-        "desc": "买卖/租赁协议、商业合同等"
+        "desc": "买卖/租赁协议、商业合同等",
+        "link": "/services/ธุรกิจ/10"
       },
       {
         "title": "商业与投资",
-        "desc": "所得税、增值税、商业/工业等"
+        "desc": "所得税、增值税、商业/工业等",
+        "link": "/services/ธุรกิจ/11"
       },
       {
         "title": "公司注册业务",
-        "desc": "公司成立/解散登记等"
-      },
-      {
-        "title": "知识产权",
-        "desc": "商标、版权等"
+        "desc": "公司成立/解散登记等",
+        "link": "/services/ธุรกิจ/12"
       },
       {
         "title": "投资",
-        "desc": "房地产、大型项目、交易结构"
+        "desc": "房地产、大型项目、交易结构",
+        "link": "/services/ธุรกิจ/13"
+      },
+      {
+        "title": "会计",
+        "desc": "税务申报、社会保险、财务报表等",
+        "link": "/services/ธุรกิจ/16"
+      },
+      {
+        "title": "企业法律顾问",
+        "desc": "商业法律咨询、合同起草等",
+        "link": "/services/ธุรกิจ/20"
       },
       {
         "title": "签证和工作许可服务",
-        "desc": "学生签证、旅游签证、结婚签证"
+        "desc": "学生签证、旅游签证、结婚签证",
+        "link": "/services/วีซ่า/14"
+      },
+      {
+        "title": "调查服务",
+        "desc": "资产调查、婚外情调查、商业调查等",
+        "link": "/services/สืบ/15"
+      },
+      {
+        "title": "公证服务",
+        "desc": "国际使用公证",
+        "link": "/services/เอกสาร/17"
+      },
+      {
+        "title": "翻译服务",
+        "desc": "官方文件、商业、法律翻译等",
+        "link": "/services/เอกสาร/18"
+      },
+      {
+        "title": "外国人房产介绍",
+        "desc": "住宅、公寓、法律咨询",
+        "link": "/services/อสังหา/19"
+      },
+      {
+        "title": "知识产权与国际贸易",
+        "desc": "商标、版权等",
+        "link": "/services/คดีความ/6"
+      },
+      {
+        "title": "BOI - 外国工人免税",
+        "desc": "BOI优惠、免税、土地所有权",
+        "link": "/services/ธุรกิจ/21"
+      },
+      {
+        "title": "其他法律案件",
+        "desc": "咨询及其他案件处理服务",
+        "link": "/services/คดีความ/9"
       }
     ]
   },
@@ -112,9 +165,9 @@
     "topic": "主题",
     "message": "留言",
     "addressTitle": "Legal Nest Thai",
-    "addr1": "382 Nice Building 2, Romklao Rd.",
-    "addr2": "曼谷 10520",
-    "hours": "工作时间：周一至周五 09:00–18:00",
+    "addr1": "10800 曼谷 挽赐县 旺沙旺区 帕差春路 769 号",
+    "addr2": "",
+    "hours": "周一到周日 24小时营业",
     "topicOptions": [
       "民事案件",
       "刑事案件",
@@ -136,54 +189,130 @@
   },
   "footer": {
     "officeTitle": "办公室地址",
-    "address": "382 Nice Building 2",
-    "district": "叻差达披色路",
-    "subDistrict": "叻差达披色区 丁丹区",
-    "city": "曼谷 10400",
+    "address": "帕差春路 769 号",
+    "district": "旺沙旺区",
+    "subDistrict": "挽赐县",
+    "city": "曼谷 10800",
     "contactTitle": "联系我们",
-    "phone1": "电话：02-123-4567",
-    "phone2": "电话：02-123-4567",
-    "mobile": "手机：090-912-3456",
-    "email": "info@legalconsult.co.th",
-    "hours": "工作时间 周一-周五 09:00-18:00",
+    "phone1": "电话：064-876-1999 (Thai)",
+    "phone2": "电话：095-459-2445 (Thai)",
+    "mobile": "电话：090-981-5994 (Eng)",
+    "email": "legalnestthai@gmail.com",
+    "hours": "周一到周日 24小时营业",
+    "wechat": "legalnestthai",
+    "whatsapp": "+66 64-876-1999",
+    "lineoa": "@legalnestthai",
     "mapTitle": "地图",
     "viewLarger": "查看大地图"
   },
   "mega": {
-    "groups": [
+    "items": [
       {
-        "items": [
-          { "title": "民事案件", "detail": "合同、债务、强制执行等" },
-          { "title": "劳工案件", "detail": "解雇、赔偿、工资和福利等" },
-          { "title": "破产案件", "detail": "个人/法人破产、强制执行" },
-          { "title": "商业与投资", "detail": "商业许可申请等" }
-        ]
+        "title": "民事案件",
+        "detail": "合同、债务、强制执行等"
       },
       {
-        "items": [
-          { "title": "刑事案件", "detail": "保释、辩护、案件意见等" },
-          { "title": "家庭/遗产案件", "detail": "离婚、监护权、遗产等" },
-          { "title": "税务案件", "detail": "所得税、增值税、商业/工业等" },
-          { "title": "公司注册", "detail": "公司设立/解散登记等" }
-        ]
+        "title": "刑事案件",
+        "detail": "保释、辩护、案件意见等"
       },
       {
-        "items": [
-          { "title": "消费者案件", "detail": "商品销售、服务、金融、电信等" },
-          { "title": "知识产权", "detail": "商标、版权等" },
-          { "title": "法律行为与合同", "detail": "买卖/租赁合同、商业合同等" },
-          { "title": "投资", "detail": "房地产、大型项目、协议结构" }
-        ]
+        "title": "消费者案件",
+        "detail": "商品销售、服务、金融、电信等"
       },
       {
-        "items": [
-          { "title": "签证与工作许可咨询", "detail": "学生签证、旅游签证、婚姻签证" }
-        ]
+        "title": "劳工案件",
+        "detail": "解雇、赔偿、工资和福利等"
+      },
+      {
+        "title": "家庭/遗产案件",
+        "detail": "离婚、监护权、遗产等"
+      },
+      {
+        "title": "知识产权",
+        "detail": "商标、版权等"
+      },
+      {
+        "title": "破产案件",
+        "detail": "个人/法人破产、强制执行"
+      },
+      {
+        "title": "税务案件",
+        "detail": "所得税、增值税、商业/工业等"
+      },
+      {
+        "title": "法律行为与合同",
+        "detail": "买卖/租赁合同、商业合同等"
+      },
+      {
+        "title": "商业与投资",
+        "detail": "商业许可申请等"
+      },
+      {
+        "title": "公司注册",
+        "detail": "公司设立/解散登记等"
+      },
+      {
+        "title": "投资",
+        "detail": "房地产、大型项目、协议结构"
+      },
+      {
+        "title": "签证与工作许可咨询",
+        "detail": "学生签证、旅游签证、婚姻签证"
+      },
+      {
+        "title": "会计",
+        "detail": "税务申报、社保申报、结账、分析等"
+      },
+      {
+        "title": "企业法律顾问",
+        "detail": "商业法律咨询、合同审查和起草等"
+      },
+      {
+        "title": "签证和工作许可咨询",
+        "detail": "学生签证、旅游签证、结婚签证、永久签证等"
+      },
+      {
+        "title": "调查服务",
+        "detail": "资产调查、婚外情调查、商业调查、其他调查"
+      },
+      {
+        "title": "公证服务",
+        "detail": "国际使用公证、许可证、合同等"
+      },
+      {
+        "title": "翻译服务",
+        "detail": "官方文件、商业、营销、技术翻译等"
+      },
+      {
+        "title": "外国人房产介绍",
+        "detail": "住宅、公寓、租赁/购买咨询等"
       }
-    ],
-    "ctaLeft": "签证与翻译服务",
-    "ctaLeftSub": "学生签证、旅游签证、婚姻签证",
-    "ctaMain": "免费咨询",
-    "ctaMainSub": "说明您的案件并获得初步建议"
+    ]
+  },
+  "articlesPage": {
+    "title": "法律文章",
+    "backToHome": "返回首页",
+    "backToArticles": "返回文章列表",
+    "lastUpdated": "最后更新:",
+    "readTime": "阅读 {time} 分钟",
+    "searchPlaceholder": "搜索文章",
+    "loading": "正在加载文章...",
+    "noResults": "未找到文章",
+    "readMore": "阅读更多",
+    "ctaTitle": "需要更多建议？",
+    "ctaDesc": "我们的律师团队随时提供免费咨询。立即联系我们。",
+    "ctaButton": "免费咨询",
+    "relatedArticles": "相关文章",
+    "categories": {
+      "all": "全部",
+      "lawsuits": "诉讼案件",
+      "foreigners": "外国人",
+      "business": "商业"
+    },
+    "pagination": {
+      "previous": "← 上一页",
+      "next": "下一页 →",
+      "pageOf": "第 {current} 页，共 {total} 页"
+    }
   }
 }

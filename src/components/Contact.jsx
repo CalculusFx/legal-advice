@@ -1,10 +1,15 @@
 import React from 'react'
 import { useI18n } from "../i18n";
-import phoneLogo from "../assets/Phone.png";
-import mobileLogo from "../assets/Mobile.png";
-import mailLogo from "../assets/Mail.png";
-import timeLogo from "../assets/Time.png";
 import SuccessModal from "./SuccessModal";
+
+
+const phoneLogo = "/assets/Phone.png";
+const mobileLogo = "/assets/Mobile.png";
+const mailLogo = "/assets/Mail.png";
+const timeLogo = "/assets/Time.png";
+const wechatLogo = "/assets/Wechat.png";
+const whatappLogo = "/assets/Whatapp.png";
+const lineoaLogo = "/assets/LineOA.png";
 
 
 const getTopicFromHash = () => {
@@ -95,7 +100,7 @@ export default function Contact(){
     const { name, value } = e.target
     setFormData(prev => ({ ...prev, [name]: value }))
     
-    // ล้าง error ของฟิลด์นั้นๆ เมื่อผู้ใช้เริ่มพิมพ์
+    
     if (fieldErrors[name]) {
       setFieldErrors(prev => {
         const newErrors = { ...prev }
@@ -108,7 +113,7 @@ export default function Contact(){
   const handleSubmit = async (e) => {
     e.preventDefault()
     
-    // ตรวจสอบข้อมูลที่จำเป็น
+    
     const errors = {}
     const errorMessages = []
     
@@ -134,7 +139,7 @@ export default function Contact(){
       errors.phone = 'กรุณากรอกเบอร์โทรศัพท์'
       errorMessages.push('กรุณากรอกเบอร์โทรศัพท์')
     } else {
-      // อนุญาตเบอร์โทรศัพท์ทั้งไทยและต่างชาติ (8-15 หลัก, รวมเครื่องหมาย + - ช่องว่าง วงเล็บ)
+      
       const cleanPhone = formData.phone.replace(/[\s\-()]/g, '')
       const phonePattern = /^[+]?[0-9]{8,15}$/
       if (!phonePattern.test(cleanPhone)) {
@@ -148,7 +153,7 @@ export default function Contact(){
       errorMessages.push('กรุณากรอกข้อความ')
     }
     
-    // ถ้ามี error ให้แสดง Modal และเซ็ต fieldErrors
+    
     if (Object.keys(errors).length > 0) {
       setFieldErrors(errors)
       showModal(
@@ -159,7 +164,7 @@ export default function Contact(){
       return
     }
     
-    // ถ้าผ่านการตรวจสอบ ให้ล้าง errors
+    
     setFieldErrors({})
     
     setIsSubmitting(true)
@@ -181,7 +186,7 @@ export default function Contact(){
         })
       })
 
-      // ถ้าเป็น development mode (localhost) และไม่มี Netlify function
+      
       if (!response.ok && response.status === 404) {
         setSubmitStatus('dev-mode')
         console.log('%c===========================================', 'color: #E5C061; font-weight: bold; font-size: 16px;');
@@ -208,7 +213,7 @@ export default function Contact(){
           '🔧 โหมดทดสอบ',
           'ข้อมูลถูกบันทึกแล้ว!\n\n👉 เปิด Console (Cmd+Option+J) เพื่อดูรายละเอียด\n\nในการใช้งานจริง ข้อมูลจะถูกส่งผ่านอีเมลหลังจาก deploy ขึ้น Netlify'
         )
-        // รีเซ็ตฟอร์ม
+        
         setFormData({
           firstName: '',
           lastName: '',
@@ -226,7 +231,7 @@ export default function Contact(){
 
       if (response.ok && result.success) {
         setSubmitStatus('success')
-        // รีเซ็ตฟอร์ม
+        
         setFormData({
           firstName: '',
           lastName: '',
@@ -253,7 +258,7 @@ export default function Contact(){
       console.error('Error:', error)
       setSubmitStatus('error')
       
-      // ถ้าเป็น localhost ให้แสดงข้อความแบบ dev mode
+      
       if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
         console.log('%c===========================================', 'color: #E5C061; font-weight: bold; font-size: 16px;');
         console.log('%c📋 Development Mode - Form Data Submitted', 'color: #9D764D; font-weight: bold; font-size: 14px;');
@@ -279,7 +284,7 @@ export default function Contact(){
           '🔧 โหมดทดสอบ',
           'ข้อมูลถูกบันทึกแล้ว!\n\n👉 เปิด Console (Cmd+Option+J) เพื่อดูรายละเอียด\n\nในการใช้งานจริง ข้อมูลจะถูกส่งผ่านอีเมลหลังจาก deploy ขึ้น Netlify'
         )
-        // รีเซ็ตฟอร์ม
+        
         setFormData({
           firstName: '',
           lastName: '',
@@ -318,7 +323,7 @@ export default function Contact(){
         </div>
       
       <div className="container contact-container">
-        {/* ฟอร์มด้านซ้าย */}
+        {}
         <div className="contact-left">
           <h2 className="contact-title">{t('contact.title')}</h2>
           <p className="contact-subtitle">{t('contact.subtitle')}</p>
@@ -468,7 +473,7 @@ export default function Contact(){
           </form>
         </div>
 
-        {/* ข้อมูลติดต่อด้านขวา */}
+        {}
         <div className="contact-right">
           <div className="contact-info-card">
             <h3 className="contact-info-title">{t('contact.addressTitle')}</h3>
@@ -476,10 +481,6 @@ export default function Contact(){
               <div className="contact-info-item">
                 {t('contact.addr1')}
               </div>
-              <div className="contact-info-item">
-                {t('contact.addr2')}
-              </div>
-              
               <div className="contact-info-item contact-phone">
                 <img src={phoneLogo} alt="Phone" className="contact-icon-img" /> {t('footer.phone1')}
               </div>
@@ -499,15 +500,15 @@ export default function Contact(){
               </div>
               
               <div className="contact-info-item">
-                <img src={mailLogo} alt="Line" className="contact-icon-img" /> {t('footer.email')}
+                <img src={wechatLogo} alt="wechat" className="contact-icon-img" /> {t('footer.wechat')}
               </div>
               
               <div className="contact-info-item">
-                <img src={mobileLogo} alt="Phone" className="contact-icon-img" /> {t('footer.email')}
+                <img src={whatappLogo} alt="WhatsApp" className="contact-icon-img" /> {t('footer.whatsapp')}
               </div>
               
               <div className="contact-info-item">
-                <img src={mailLogo} alt="Social" className="contact-icon-img" /> @lineofficial
+                <img src={lineoaLogo} alt="Line OA" className="contact-icon-img" /> {t('footer.lineoa')}
               </div>
             </div>
           </div>

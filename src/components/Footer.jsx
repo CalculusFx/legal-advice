@@ -1,14 +1,16 @@
 import React from 'react'
 import { useI18n } from "../i18n";
-import locationLogo from "../assets/Location Logo.png";
-import fbLogo from "../assets/FB Logo.png";
-import ttLogo from "../assets/TT Logo.png";
-import xLogo from "../assets/X Logo.png";
-import inLogo from "../assets/in Logo.png";
-import phoneLogo from "../assets/Phone.png";
-import mobileLogo from "../assets/Mobile.png";
-import mailLogo from "../assets/Mail.png";
-import timeLogo from "../assets/Time.png";
+
+
+const locationLogo = "/assets/Location Logo.png";
+const fbLogo = "/assets/FB Logo.png";
+const ttLogo = "/assets/TT Logo.png";
+const xLogo = "/assets/X Logo.png";
+const inLogo = "/assets/in Logo.png";
+const phoneLogo = "/assets/Footer_Phone.png";
+const mobileLogo = "/assets/Footer_Mobile.png";
+const mailLogo = "/assets/Footer_Mail.png";
+const timeLogo = "/assets/Footer_Time.png";
 
 export default function Footer(){
   const { t } = useI18n()
@@ -17,7 +19,6 @@ export default function Footer(){
       <div className="container">
         <div className="footer-wrapper">
           <div className="footer-grid">
-            {/* Office Location */}
             <div className="footer-column">
               <img src={locationLogo} alt="Location" className="footer-icon-img" />
               <h3 className="footer-title">{t('footer.officeTitle')}</h3>
@@ -43,7 +44,6 @@ export default function Footer(){
               </div>
             </div>
 
-            {/* Contact */}
             <div className="footer-column">
               <h3 className="footer-title">{t('footer.contactTitle')}</h3>
               <div className="footer-contact">
@@ -70,7 +70,6 @@ export default function Footer(){
               </div>
             </div>
 
-            {/* Map */}
             <div className="footer-column footer-map">
               <div className="map-placeholder">
                 <iframe

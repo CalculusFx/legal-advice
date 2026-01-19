@@ -1,9 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { useI18n } from "../i18n";
-import lawyerImage from '../assets/ทนายความ.jpg'
 
 export default function About(){
   const { t } = useI18n()
+  const lawyerImagePath = '/assets/ทนายความ.jpg';
+  
   return (
     <section id="about" className="about-section">
       <div className="about-container">
@@ -13,12 +15,12 @@ export default function About(){
           <p className="about-text">
             {t('about.desc')}
           </p>
-          <a className="about-btn" href="#contact">{t('cta.more')} &gt;</a>
+          <Link className="about-btn" to="/about">{t('cta.more')} &gt;</Link>
         </div>
         <div className="about-image-wrapper">
           <div className="about-image-border"></div>
           <img 
-            src={lawyerImage} 
+            src={lawyerImagePath} 
             alt="ทนายความ"
             className="about-lawyer-image"
           />

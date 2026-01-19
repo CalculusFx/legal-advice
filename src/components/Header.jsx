@@ -1,11 +1,18 @@
 import React from "react";
+import { useNavigate, useLocation } from "react-router-dom";
 import { useI18n } from "../i18n";
 import MegaMenu from "./MegaMenu";
-import logo from "../assets/logo.png";
-import bgHeader from "../assets/BG Header.png";
+import { LANGUAGE_FLAGS, getEnabledLanguages } from "../config/languageFlags";
+
+
+const logo = "/assets/Logo.png";
+const bgHeader = "/assets/BG Header.png";
 
 export default function Header() {
   const { t, lang, setLang, dictKeys } = useI18n();
+  const navigate = useNavigate();
+  const location = useLocation();
+  const isHomePage = location.pathname === '/';
 
   const [megaOpen, setMegaOpen] = React.useState(false);
   const [langOpen, setLangOpen] = React.useState(false);
@@ -14,7 +21,7 @@ export default function Header() {
   const timer = React.useRef(null);
   const langTimer = React.useRef(null);
 
-  // Detect scroll to add sticky background
+  
   React.useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
@@ -23,7 +30,7 @@ export default function Header() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // ข้อมูลภาษาพร้อมธงชาติ
+  
   const languages = {
     th: { name: "ไทย", flag: "🇹🇭" },
     en: { name: "English", flag: "🇬🇧" },
@@ -32,9 +39,24 @@ export default function Header() {
     ko: { name: "한국어", flag: "🇰🇷" }
   };
 
-  // คุมการเปิด/ปิดแบบเนียน ๆ
+  // Get only enabled languages
+  const enabledLanguages = getEnabledLanguages();
+  const availableLanguages = enabledLanguages.reduce((acc, langKey) => {
+    if (languages[langKey]) {
+      acc[langKey] = languages[langKey];
+    }
+    return acc;
+  }, {});
+
+  // If current language is disabled, switch to default enabled language
+  React.useEffect(() => {
+    if (!LANGUAGE_FLAGS[lang] && enabledLanguages.length > 0) {
+      setLang(enabledLanguages[0]);
+    }
+  }, [lang, setLang, enabledLanguages]);
+  
   const open = () => { 
-    // Don't open mega menu on mobile
+    
     if (window.innerWidth <= 720) return;
     clearTimeout(timer.current); 
     setMegaOpen(true); 
@@ -60,7 +82,12 @@ export default function Header() {
   return (
     <header className={isScrolled ? "sticky" : ""} onKeyDown={(e)=> e.key === "Escape" && close()}>
       <div className="container nav">
-        <a className="brand" href="#top" aria-label="Legal Nest Thai - Home">
+        <a className="brand" href={isHomePage ? "#top" : "/"} onClick={(e) => {
+          if (!isHomePage) {
+            e.preventDefault();
+            navigate('/');
+          }
+        }} aria-label="Legal Nest Thai - Home">
           <img src={logo} alt="Legal Nest Thai" className="logo" />
           <span className="brand-text">{t("brand")}</span>
         </a>
@@ -68,10 +95,16 @@ export default function Header() {
         <nav className={mobileMenuOpen ? 'mobile-open' : ''}>
           <ul>
             <li onMouseEnter={close}>
-              <a href="#about" onClick={() => setMobileMenuOpen(false)}>{t("nav.about")}</a>
+              <a href={isHomePage ? "#about" : "/about"} onClick={(e) => {
+                setMobileMenuOpen(false);
+                if (!isHomePage) {
+                  e.preventDefault();
+                  navigate('/about');
+                }
+              }}>{t("nav.about")}</a>
             </li>
 
-            {/* ครอบปุ่มกับเมนูไว้ในกล่องเดียว -> ไม่กระพริบ */}
+            {}
             <div
               className="mega-anchor"
               onPointerEnter={open}
@@ -80,18 +113,18 @@ export default function Header() {
               onBlurCapture={closeLater}
             >
               <li className="has-mega" onClick={(e) => {
-                // On mobile, just close menu and navigate
+                
                 if (window.innerWidth <= 720) {
                   setMobileMenuOpen(false);
                 } else {
-                  // On desktop, toggle mega menu
+                  
                   setMegaOpen(v=>!v);
                 }
               }}>
                 <a href="#services" aria-expanded={megaOpen}>{t("nav.services")}</a>
               </li>
 
-              {/* แสดงเมก้าเมนูแบบ inline (absolute) */}
+              {}
               <MegaMenu open={megaOpen} inline onClose={close} />
             </div>
 
@@ -105,12 +138,10 @@ export default function Header() {
         </nav>
 
         <div className="nav-controls">
-          {/* ปุ่มปรึกษาทนายฟรี
-          <a href="#contact" className="btn consult-btn">
-            {t("cta.free")}
-          </a> */}
+          {}
+          {}
 
-          {/* Custom Language Dropdown */}
+          {}
           <div 
             className="lang-dropdown-wrapper"
             onMouseEnter={handleLangMouseEnter}
@@ -120,20 +151,20 @@ export default function Header() {
               className="lang-select-btn"
               onClick={() => setLangOpen(!langOpen)}
             >
-              {languages[lang]?.flag} {languages[lang]?.name}
+              {availableLanguages[lang]?.flag} {availableLanguages[lang]?.name}
               <svg width="12" height="8" viewBox="0 0 12 8" fill="none" className="lang-arrow">
                 <path d="M1 1L6 6L11 1" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
             </button>
             {langOpen && (
               <div className="lang-dropdown">
-                {dictKeys.map(k => (
+                {enabledLanguages.map(k => (
                   <button
                     key={k}
                     className={`lang-option ${k === lang ? 'active' : ''}`}
                     onClick={() => handleLangChange(k)}
                   >
-                    {languages[k]?.flag} {languages[k]?.name}
+                    {availableLanguages[k]?.flag} {availableLanguages[k]?.name}
                     {k === lang && <span className="checkmark">✓</span>}
                   </button>
                 ))}
@@ -141,7 +172,7 @@ export default function Header() {
             )}
           </div>
 
-          {/* Hamburger Menu Button */}
+          {}
           <button 
             className={`mobile-menu-btn ${mobileMenuOpen ? 'open' : ''}`}
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}

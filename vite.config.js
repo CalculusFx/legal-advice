@@ -4,4 +4,12 @@ import react from '@vitejs/plugin-react'
 // Vite config
 export default defineConfig({
   plugins: [react()],
+  assetsInclude: ['**/*.jpg', '**/*.png', '**/*.jpeg', '**/*.svg', '**/*.ttf'],
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: undefined
+      }
+    }
+  }
 })

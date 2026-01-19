@@ -1,23 +1,24 @@
 import React from 'react'
-import { I18nProvider } from "./i18n";
-import Header from './components/Header'
-import Hero from './components/Hero'
-import Topics from './components/Topics'
-import Services from './components/Services'
-import About from './components/About'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { I18nProvider } from "./i18n"
+import HomePage from './pages/HomePage'
+import ArticlesPage from './pages/ArticlesPage'
+import ArticleDetailPage from './pages/ArticleDetailPage'
+import ServiceDetailPage from './pages/ServiceDetailPage'
+import AboutDetailPage from './pages/AboutDetailPage'
 
 export default function App(){
   return (
     <I18nProvider>
-      <Header/>
-      <Hero/>
-      <Topics/>
-      <Services/>
-      <About/>
-      <Contact/>
-      <Footer/>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/articles" element={<ArticlesPage />} />
+          <Route path="/articles/:id" element={<ArticleDetailPage />} />
+          <Route path="/services/:category/:id" element={<ServiceDetailPage />} />
+          <Route path="/about" element={<AboutDetailPage />} />
+        </Routes>
+      </BrowserRouter>
     </I18nProvider>
   )
 }

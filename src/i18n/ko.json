@@ -46,55 +46,108 @@
     "items": [
       {
         "title": "민사 사건",
-        "desc": "계약, 소유권, 강제집행 등"
+        "desc": "계약, 소유권, 강제집행 등",
+        "link": "/services/คดีความ/1"
       },
       {
         "title": "형사 사건",
-        "desc": "보석, 소송 변호, 법률 의견 등"
+        "desc": "보석, 소송 변호, 법률 의견 등",
+        "link": "/services/คดีความ/2"
       },
       {
         "title": "소비자 사건",
-        "desc": "상품 구매, 서비스, 금융, 통신 등"
+        "desc": "상품 구매, 서비스, 금융, 통신 등",
+        "link": "/services/คดีความ/3"
       },
       {
         "title": "노동 사건",
-        "desc": "해고, 보상, 임금 및 복리후생 등"
+        "desc": "해고, 보상, 임금 및 복리후생 등",
+        "link": "/services/คดีความ/4"
       },
       {
-        "title": "가사/상속",
-        "desc": "이혼, 친권, 상속 등"
+        "title": "청소년 및 가정 사건",
+        "desc": "이혼, 친권, 상속 등",
+        "link": "/services/คดีความ/5"
       },
       {
         "title": "파산 사건",
-        "desc": "개인/법인 파산, 강제집행"
+        "desc": "개인/법인 파산, 강제집행",
+        "link": "/services/คดีความ/7"
       },
       {
         "title": "세무 사건",
-        "desc": "소득세, 부가세, 사업/산업 등"
+        "desc": "소득세, 부가세, 사업/산업 등",
+        "link": "/services/คดีความ/8"
       },
       {
         "title": "법률행위/계약",
-        "desc": "매매/임대계약, 상업계약 등"
+        "desc": "매매/임대계약, 상업계약 등",
+        "link": "/services/ธุรกิจ/10"
       },
       {
         "title": "비즈니스/투자",
-        "desc": "소득세, 부가세, 사업/산업 등"
+        "desc": "소득세, 부가세, 사업/산업 등",
+        "link": "/services/ธุรกิจ/11"
       },
       {
         "title": "회사 등기 업무",
-        "desc": "회사 설립/해산 등기 등"
-      },
-      {
-        "title": "지식재산",
-        "desc": "상표, 저작권 등"
+        "desc": "회사 설립/해산 등기 등",
+        "link": "/services/ธุรกิจ/12"
       },
       {
         "title": "투자",
-        "desc": "부동산, 대형 프로젝트, 거래 구조"
+        "desc": "부동산, 대형 프로젝트, 거래 구조",
+        "link": "/services/ธุรกิจ/13"
+      },
+      {
+        "title": "회계",
+        "desc": "세무 신고, 사회보험, 재무제표 등",
+        "link": "/services/ธุรกิจ/16"
+      },
+      {
+        "title": "기업 법률 고문",
+        "desc": "비즈니스 법률 상담, 계약서 작성 등",
+        "link": "/services/ธุรกิจ/20"
       },
       {
         "title": "비자 및 취업 허가 서비스",
-        "desc": "학생 비자, 관광 비자, 결혼 비자"
+        "desc": "학생 비자, 관광 비자, 결혼 비자",
+        "link": "/services/วีซ่า/14"
+      },
+      {
+        "title": "조사 서비스",
+        "desc": "자산 조사, 불륜 조사, 비즈니스 조사 등",
+        "link": "/services/สืบ/15"
+      },
+      {
+        "title": "공증 서비스",
+        "desc": "국제 사용 공증",
+        "link": "/services/เอกสาร/17"
+      },
+      {
+        "title": "번역 서비스",
+        "desc": "공문서, 비즈니스, 법률 번역 등",
+        "link": "/services/เอกสาร/18"
+      },
+      {
+        "title": "외국인 부동산 소개",
+        "desc": "주택, 콘도, 법률 상담",
+        "link": "/services/อสังหา/19"
+      },
+      {
+        "title": "지식재산 및 국제무역",
+        "desc": "상표, 저작권 등",
+        "link": "/services/คดีความ/6"
+      },
+      {
+        "title": "BOI - 외국인 근로자 면세",
+        "desc": "BOI 혜택, 면세, 토지 소유권",
+        "link": "/services/ธุรกิจ/21"
+      },
+      {
+        "title": "기타 법률 사건",
+        "desc": "상담 및 기타 사건 처리 서비스",
+        "link": "/services/คดีความ/9"
       }
     ]
   },
@@ -112,9 +165,9 @@
     "topic": "제목",
     "message": "메시지",
     "addressTitle": "Legal Nest Thai",
-    "addr1": "382 Nice Building 2, Romklao Rd.",
-    "addr2": "방콕 10520",
-    "hours": "영업시간: 월–금 09:00–18:00",
+    "addr1": "10800 방콕 방수구 웡사왕동 쁘라차춘로 769",
+    "addr2": "",
+    "hours": "월요일부터 일요일까지 24시간",
     "topicOptions": [
       "민사 사건",
       "형사 사건",
@@ -136,54 +189,130 @@
   },
   "footer": {
     "officeTitle": "오피스 위치",
-    "address": "382 Nice Building 2",
-    "district": "라차다피섹 로드",
-    "subDistrict": "라차다피섹구 딘댕구",
-    "city": "방콕 10400",
+    "address": "쁘라차춘로 769",
+    "district": "웡사왕동",
+    "subDistrict": "방수구",
+    "city": "방콕 10800",
     "contactTitle": "문의하기",
-    "phone1": "전화：02-123-4567",
-    "phone2": "전화：02-123-4567",
-    "mobile": "휴대폰：090-912-3456",
-    "email": "info@legalconsult.co.th",
-    "hours": "영업시간 월-금 09:00-18:00",
+    "phone1": "전화：064-876-1999 (Thai)",
+    "phone2": "전화：095-459-2445 (Thai)",
+    "mobile": "전화：090-981-5994 (Eng)",
+    "email": "legalnestthai@gmail.com",
+    "hours": "월요일부터 일요일까지 24시간",
+    "wechat": "legalnestthai",
+    "whatsapp": "+66 64-876-1999",
+    "lineoa": "@legalnestthai",
     "mapTitle": "지도",
     "viewLarger": "큰 지도 보기"
   },
   "mega": {
-    "groups": [
+    "items": [
       {
-        "items": [
-          { "title": "민사 사건", "detail": "계약, 채무, 강제집행 등" },
-          { "title": "노동 사건", "detail": "해고, 보상, 임금 및 복리후생 등" },
-          { "title": "파산 사건", "detail": "개인/법인 파산, 강제집행 단계" },
-          { "title": "비즈니스 및 투자", "detail": "사업 허가 신청 등" }
-        ]
+        "title": "민사 사건",
+        "detail": "계약, 채무, 강제집행 등"
       },
       {
-        "items": [
-          { "title": "형사 사건", "detail": "보석, 변론, 사건 의견 등" },
-          { "title": "가족/상속 사건", "detail": "이혼, 양육권, 상속 등" },
-          { "title": "세무 사건", "detail": "소득세, VAT, 비즈니스/산업 등" },
-          { "title": "회사 등기", "detail": "회사 설립/해산 등기 등" }
-        ]
+        "title": "형사 사건",
+        "detail": "보석, 변론, 사건 의견 등"
       },
       {
-        "items": [
-          { "title": "소비자 사건", "detail": "상품 판매, 서비스, 금융, 통신 등" },
-          { "title": "지적재산", "detail": "상표, 저작권 등" },
-          { "title": "법률 행위 및 계약", "detail": "매매/임대 계약, 상업 계약 등" },
-          { "title": "투자", "detail": "부동산, 대형 프로젝트, 계약 구조" }
-        ]
+        "title": "소비자 사건",
+        "detail": "상품 판매, 서비스, 금융, 통신 등"
       },
       {
-        "items": [
-          { "title": "비자 및 노동 허가 상담", "detail": "학생 비자, 관광 비자, 결혼 비자" }
-        ]
+        "title": "노동 사건",
+        "detail": "해고, 보상, 임금 및 복리후생 등"
+      },
+      {
+        "title": "가족/상속 사건",
+        "detail": "이혼, 양육권, 상속 등"
+      },
+      {
+        "title": "지적재산",
+        "detail": "상표, 저작권 등"
+      },
+      {
+        "title": "파산 사건",
+        "detail": "개인/법인 파산, 강제집행 단계"
+      },
+      {
+        "title": "세무 사건",
+        "detail": "소득세, VAT, 비즈니스/산업 등"
+      },
+      {
+        "title": "법률 행위 및 계약",
+        "detail": "매매/임대 계약, 상업 계약 등"
+      },
+      {
+        "title": "비즈니스 및 투자",
+        "detail": "사업 허가 신청 등"
+      },
+      {
+        "title": "회사 등기",
+        "detail": "회사 설립/해산 등기 등"
+      },
+      {
+        "title": "투자",
+        "detail": "부동산, 대형 프로젝트, 계약 구조"
+      },
+      {
+        "title": "비자 및 노동 허가 상담",
+        "detail": "학생 비자, 관광 비자, 결혼 비자"
+      },
+      {
+        "title": "회계",
+        "detail": "세무 신고, 사회보험 신고, 결산, 분석 등"
+      },
+      {
+        "title": "기업 법률 고문",
+        "detail": "비즈니스 법률 상담, 계약서 검토 및 작성 등"
+      },
+      {
+        "title": "비자 및 취업 허가 상담",
+        "detail": "학생 비자, 관광 비자, 결혼 비자, 영주 비자 등"
+      },
+      {
+        "title": "조사 서비스",
+        "detail": "자산 조사, 불륜 조사, 비즈니스 조사, 기타 조사"
+      },
+      {
+        "title": "공증 서비스",
+        "detail": "국제 사용 공증, 허가증, 계약서 등"
+      },
+      {
+        "title": "번역 서비스",
+        "detail": "공문서, 비즈니스, 마케팅, 기술 번역 등"
+      },
+      {
+        "title": "외국인 부동산 소개",
+        "detail": "주택, 콘도, 임대/구매 상담 등"
       }
-    ],
-    "ctaLeft": "비자 및 번역 서비스",
-    "ctaLeftSub": "학생 비자, 관광 비자, 결혼 비자",
-    "ctaMain": "무료 상담",
-    "ctaMainSub": "사례를 설명하고 초기 조언 받기"
+    ]
+  },
+  "articlesPage": {
+    "title": "법률 칼럼",
+    "backToHome": "홈으로 돌아가기",
+    "backToArticles": "기사 목록으로 돌아가기",
+    "lastUpdated": "최종 업데이트:",
+    "readTime": "{time}분 소요",
+    "searchPlaceholder": "기사 검색",
+    "loading": "기사를 불러오는 중...",
+    "noResults": "기사를 찾을 수 없습니다",
+    "readMore": "더 읽기",
+    "ctaTitle": "더 많은 조언이 필요하신가요?",
+    "ctaDesc": "저희 법률팀이 무료 상담을 제공해 드립니다. 지금 바로 문의하세요.",
+    "ctaButton": "무료 상담",
+    "relatedArticles": "관련 기사",
+    "categories": {
+      "all": "전체",
+      "lawsuits": "소송",
+      "foreigners": "외국인",
+      "business": "비즈니스"
+    },
+    "pagination": {
+      "previous": "← 이전",
+      "next": "다음 →",
+      "pageOf": "페이지 {current} / {total}"
+    }
   }
 }

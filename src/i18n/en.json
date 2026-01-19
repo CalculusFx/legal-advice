@@ -46,55 +46,108 @@
     "items": [
       {
         "title": "Civil Cases",
-        "desc": "Contract, property rights, enforcement, etc."
+        "desc": "Contract, property rights, enforcement, etc.",
+        "link": "/services/คดีความ/1"
       },
       {
         "title": "Criminal Cases",
-        "desc": "Bail, case defense, legal opinions, etc."
+        "desc": "Bail, case defense, legal opinions, etc.",
+        "link": "/services/คดีความ/2"
       },
       {
         "title": "Consumer Cases",
-        "desc": "Product purchase, services, finance, telecom, etc."
+        "desc": "Product purchase, services, finance, telecom, etc.",
+        "link": "/services/คดีความ/3"
       },
       {
         "title": "Labor Cases",
-        "desc": "Termination, compensation, wages & benefits, etc."
+        "desc": "Termination, compensation, wages & benefits, etc.",
+        "link": "/services/คดีความ/4"
       },
       {
-        "title": "Family/Inheritance",
-        "desc": "Divorce, custody, inheritance, etc."
+        "title": "Juvenile and Family Cases",
+        "desc": "Divorce, custody, inheritance, etc.",
+        "link": "/services/คดีความ/5"
       },
       {
         "title": "Bankruptcy Cases",
-        "desc": "Personal/corporate bankruptcy, enforcement"
+        "desc": "Personal/corporate bankruptcy, enforcement",
+        "link": "/services/คดีความ/7"
       },
       {
         "title": "Tax Cases",
-        "desc": "Income tax, VAT, business/industry, etc."
+        "desc": "Income tax, VAT, business/industry, etc.",
+        "link": "/services/คดีความ/8"
       },
       {
         "title": "Legal Acts & Contracts",
-        "desc": "Purchase/lease agreements, commercial contracts, etc."
+        "desc": "Purchase/lease agreements, commercial contracts, etc.",
+        "link": "/services/ธุรกิจ/10"
       },
       {
         "title": "Business & Investment",
-        "desc": "Income tax, VAT, business/industry, etc."
+        "desc": "Income tax, VAT, business/industry, etc.",
+        "link": "/services/ธุรกิจ/11"
       },
       {
         "title": "Company Registration",
-        "desc": "Company establishment/dissolution registration, etc."
-      },
-      {
-        "title": "Intellectual Property",
-        "desc": "Trademarks, copyrights, etc."
+        "desc": "Company establishment/dissolution registration, etc.",
+        "link": "/services/ธุรกิจ/12"
       },
       {
         "title": "Investment",
-        "desc": "Real estate, large projects, deal structure"
+        "desc": "Real estate, large projects, deal structure",
+        "link": "/services/ธุรกิจ/13"
+      },
+      {
+        "title": "Accounting",
+        "desc": "Tax filing, social security, financial statements, etc.",
+        "link": "/services/ธุรกิจ/16"
+      },
+      {
+        "title": "Corporate Legal Advisor",
+        "desc": "Business legal consultation, contract drafting, etc.",
+        "link": "/services/ธุรกิจ/20"
       },
       {
         "title": "Visa and Work Permit Services",
-        "desc": "Student visa, tourist visa, marriage visa"
+        "desc": "Student visa, tourist visa, marriage visa",
+        "link": "/services/วีซ่า/14"
+      },
+      {
+        "title": "Investigation Services",
+        "desc": "Asset investigation, infidelity investigation, business investigation, etc.",
+        "link": "/services/สืบ/15"
+      },
+      {
+        "title": "Notarial Services",
+        "desc": "Notarization for international use",
+        "link": "/services/เอกสาร/17"
+      },
+      {
+        "title": "Translation Services",
+        "desc": "Official documents, business, legal translation, etc.",
+        "link": "/services/เอกสาร/18"
+      },
+      {
+        "title": "Property Finder for Foreigners",
+        "desc": "House, condo, legal consultation",
+        "link": "/services/อสังหา/19"
+      },
+      {
+        "title": "Intellectual Property & International Trade",
+        "desc": "Trademarks, copyrights, etc.",
+        "link": "/services/คดีความ/6"
+      },
+      {
+        "title": "BOI - Tax Exemption for Foreign Workers",
+        "desc": "BOI benefits, tax exemption, land ownership",
+        "link": "/services/ธุรกิจ/21"
+      },
+      {
+        "title": "Other Legal Cases",
+        "desc": "Consultation and other case handling services",
+        "link": "/services/คดีความ/9"
       }
     ]
   },
@@ -112,9 +165,9 @@
     "topic": "Subject",
     "message": "Message",
     "addressTitle": "Legal Nest Thai",
-    "addr1": "382 Nice Building 2, Romklao Rd, Khlong Sam Prawet, Lat Krabang",
-    "addr2": "Bangkok 10520",
-    "hours": "Hours: Mon–Fri 09:00–18:00",
+    "addr1": "769 Pracha Chuen Road, Wong Sawang Sub-district, Bang Sue District",
+    "addr2": "Bangkok 10800",
+    "hours": "Monday to Sunday, 24 hours",
     "topicOptions": [
       "Civil Cases",
       "Criminal Cases",
@@ -136,54 +189,130 @@
   },
   "footer": {
     "officeTitle": "Office Location",
-    "address": "382 Nice Building 2",
-    "district": "Ratchadaphisek Road",
-    "subDistrict": "Ratchadaphisek, Din Daeng",
-    "city": "Bangkok 10400",
+    "address": "769 Pracha Chuen Road",
+    "district": "Wong Sawang Sub-district",
+    "subDistrict": "Bang Sue District",
+    "city": "Bangkok 10800",
     "contactTitle": "Contact Us",
-    "phone1": "Tel : 02-123-4567",
-    "phone2": "Tel : 02-123-4567",
-    "mobile": "Tel : 090-912-3456",
-    "email": "info@legalconsult.co.th",
-    "hours": "Business Hours Mon-Fri 09:00-18:00",
+    "phone1": "Tel : 064-876-1999 (Thai)",
+    "phone2": "Tel : 095-459-2445 (Thai)",
+    "mobile": "Tel : 090-981-5994 (Eng)",
+    "email": "legalnestthai@gmail.com",
+    "hours": "Monday to Sunday, 24 hours",
+    "wechat": "legalnestthai",
+    "whatsapp": "+66 64-876-1999",
+    "lineoa": "@legalnestthai",
     "mapTitle": "Map",
     "viewLarger": "View larger map"
   },
   "mega": {
-    "groups": [
+    "items": [
       {
-        "items": [
-          { "title": "Civil Cases", "detail": "Contract, debt collection, enforcement, etc." },
-          { "title": "Labor Cases", "detail": "Termination, compensation, wages & benefits, etc." },
-          { "title": "Bankruptcy Cases", "detail": "Personal/corporate bankruptcy, enforcement stage" },
-          { "title": "Business & Investment", "detail": "Business license applications, etc." }
-        ]
+        "title": "Civil Cases",
+        "detail": "Contract, debt collection, enforcement, etc."
       },
       {
-        "items": [
-          { "title": "Criminal Cases", "detail": "Bail, case defense, legal opinions, etc." },
-          { "title": "Family/Inheritance", "detail": "Divorce, custody, inheritance, etc." },
-          { "title": "Tax Cases", "detail": "Income tax, VAT, business/industry, etc." },
-          { "title": "Company Registration", "detail": "Company establishment/dissolution registration, etc." }
-        ]
+        "title": "Criminal Cases",
+        "detail": "Bail, case defense, legal opinions, etc."
       },
       {
-        "items": [
-          { "title": "Consumer Cases", "detail": "Product purchase, services, finance, telecom, etc." },
-          { "title": "Intellectual Property", "detail": "Trademarks, copyrights, etc." },
-          { "title": "Legal Acts & Contracts", "detail": "Purchase/lease agreements, commercial contracts, etc." },
-          { "title": "Investment", "detail": "Real estate, large projects, deal structure" }
-        ]
+        "title": "Consumer Cases",
+        "detail": "Product purchase, services, finance, telecom, etc."
       },
       {
-        "items": [
-          { "title": "Visa & Work Permit Consultation", "detail": "Student visa, tourist visa, marriage visa" }
-        ]
+        "title": "Labor Cases",
+        "detail": "Termination, compensation, wages & benefits, etc."
+      },
+      {
+        "title": "Family/Inheritance",
+        "detail": "Divorce, custody, inheritance, etc."
+      },
+      {
+        "title": "Intellectual Property",
+        "detail": "Trademarks, copyrights, etc."
+      },
+      {
+        "title": "Bankruptcy Cases",
+        "detail": "Personal/corporate bankruptcy, enforcement stage"
+      },
+      {
+        "title": "Tax Cases",
+        "detail": "Income tax, VAT, business/industry, etc."
+      },
+      {
+        "title": "Legal Acts & Contracts",
+        "detail": "Purchase/lease agreements, commercial contracts, etc."
+      },
+      {
+        "title": "Business & Investment",
+        "detail": "Business license applications, etc."
+      },
+      {
+        "title": "Company Registration",
+        "detail": "Company establishment/dissolution registration, etc."
+      },
+      {
+        "title": "Investment",
+        "detail": "Real estate, large projects, deal structure"
+      },
+      {
+        "title": "Visa & Work Permit Consultation",
+        "detail": "Student visa, tourist visa, marriage visa"
+      },
+      {
+        "title": "Accounting",
+        "detail": "Tax filing, social security, financial statements, etc."
+      },
+      {
+        "title": "Corporate Legal Advisor",
+        "detail": "Business legal consultation, contract review and drafting, etc."
+      },
+      {
+        "title": "Visa & Work Permit Consultation",
+        "detail": "Student visa, tourist visa, marriage visa, permanent visa, etc."
+      },
+      {
+        "title": "Investigation Services",
+        "detail": "Asset investigation, infidelity investigation, business investigation, etc."
+      },
+      {
+        "title": "Notarial Services",
+        "detail": "International notarization, permits, contracts, etc."
+      },
+      {
+        "title": "Translation Services",
+        "detail": "Official documents, business, marketing, technical translation, etc."
+      },
+      {
+        "title": "Property Finder for Foreigners",
+        "detail": "House, condo, rental/purchase consultation, etc."
       }
-    ],
-    "ctaLeft": "Visa & Translation Services",
-    "ctaLeftSub": "Student visa, tourist visa, marriage visa",
-    "ctaMain": "Free Legal Consultation",
-    "ctaMainSub": "Explain your case and get initial advice"
+    ]
+  },
+  "articlesPage": {
+    "title": "Articles",
+    "backToHome": "Back to Home",
+    "backToArticles": "Back to Articles",
+    "lastUpdated": "Last Updated:",
+    "readTime": "Read {time} min",
+    "searchPlaceholder": "Search articles",
+    "loading": "Loading articles...",
+    "noResults": "No articles found",
+    "readMore": "Read More",
+    "ctaTitle": "Need more advice?",
+    "ctaDesc": "Our legal team is ready to provide free consultation. Contact us now.",
+    "ctaButton": "Free Consultation",
+    "relatedArticles": "Related Articles",
+    "categories": {
+      "all": "All",
+      "lawsuits": "Lawsuits",
+      "foreigners": "Foreigners",
+      "business": "Business"
+    },
+    "pagination": {
+      "previous": "← Previous",
+      "next": "Next →",
+      "pageOf": "Page {current} of {total}"
+    }
   }
 }

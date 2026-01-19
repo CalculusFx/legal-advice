@@ -1,0 +1,256 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "tag": "case",
+      "service": "คดีแพ่ง",
+      "content": "1. คดีเกี่ยวกับ หนี้และสัญญา\n\n- คดีกู้ยืมเงิน / ฟ้องเรียกเงินคืน\n\n- คดีซื้อขาย เช่าทรัพย์ เช่าซื้อ จ้างทำของ\n\n- คดีบัตรเครดิต สินเชื่อเงินกู้\n\n- คดีผิดนัดชำระหนี้ตามสัญญา\n\n2. คดี ละเมิด\n\n- คดีเรียกค่าเสียหายจากการทำละเมิด เช่น รถชน ทำของเสียหาย\n\n- คดีหมิ่นประมาท เรียกค่าเสียหายทางแพ่ง\n\n- คดีละเมิดโดยลูกจ้าง นายจ้างต้องรับผิดร่วม\n\n3. คดี ทรัพย์สิน\n\n- คดีฟ้องขับไล่ผู้เช่า\n\n- คดีฟ้องเพิกถอนการครอบครอง\n\n- คดีกรรมสิทธิ์ในที่ดิน / บ้าน / รถยนต์\n\n4. คดี ครอบครัว\n\n- คดีฟ้องหย่า\n\n- คดีเรียกค่าอุปการะเลี้ยงดูบุตรหรือคู่สมรส\n\n- คดีสิทธิการปกครองบุตร\n\n- คดีขอรับบุตรบุญธรรม\n\n5. คดี มรดก\n\n- คดีแบ่งมรดก\n\n- คดีเพิกถอนพินัยกรรม\n\n- คดีขอเป็นผู้จัดการมรดก\n\n6. คดี การค้าและบริษัท\n\n- คดีหุ้นส่วน บริษัท การจัดการหนี้สินของนิติบุคคล",
+      "translations": {
+        "en": "1. Debt and Contract Disputes\n\n- Loan Disputes / Claims for Monetary Recovery\n\n- Sales, Lease, Hire-Purchase, and Contract-for-Work Cases\n\n- Credit Card and Personal Loan Disputes\n\n- Breach of Contract and Default Cases\n\n2. Tort Cases\n\n- Claims for Damages from Torts\n\n- Defamation and Civil Damages Claims\n\n- Vicarious Liability Cases\n\n3. Property Disputes\n\n- Eviction Proceedings Against Tenants\n\n- Actions to Revoke Possession / Actions for Recovery of Possession\n\n- Ownership Disputes\n\n4. Family Law\n\n- Divorce Proceedings\n\n- Maintenance and Child Support Claims\n\n- Child Custody and Guardianship Disputes\n\n- Adoption Proceedings\n\n5. Inheritance and Estate Cases\n\n- Estate Distribution Disputes\n\n- Will Contest Proceedings\n\n- Applications for Estate Administration\n\n6. Commercial and Corporate Cases\n\n- Partnership and Corporate Disputes",
+        "ja": "１．債務・契約に関する訴訟\n- 金銭消費貸借に関する事例／返済請求訴訟\n\n- ２．不法行為に関する訴訟\n- 不法行為による損害賠償請求の事例（例：交通事故、物損）\n\n- ３．財産に関する訴訟\n\n- ４．家庭に関する訴訟\n\n- ５．相続に関する訴訟\n\n- ６．商事・会社に関する訴訟",
+        "zh": "",
+        "ko": ""
+      }
+    },
+    {
+      "id": 2,
+      "tag": "case",
+      "service": "คดีอาญา",
+      "content": "1.ความผิดต่อชีวิตและร่างกาย\n\n- ฆ่าคนตาย\n\n- พยายามฆ่า\n\n- ทำร้ายร่างกาย\n\n- ข่มขืนกระทำชำเรา\n\n- 2.ความผิดเกี่ยวกับทรัพย์\n\n- ลักทรัพย์\n\n- วิ่งราวทรัพย์\n\n- ปล้นทรัพย์\n\n- กรรโชก ขู่เข็ญ\n\n- ฉ้อโกง\n\n- ยักยอก\n\n- 3.ความผิดเกี่ยวกับเอกสารและการปลอมแปลง\n\n- ปลอมเอกสาร\n\n- ใช้เอกสารปลอม\n\n- ปลอมแปลงเอกสารราชการ\n\n- 4.ความผิดเกี่ยวกับเสรีภาพ\n\n- หน่วงเหนี่ยว กักขัง\n\n- บังคับ ข่มขืนใจ\n\n- 5.ความผิดต่อรัฐ\n\n- ก่อการร้าย\n\n- กบฏ\n\n- ดูหมิ่นเจ้าพนักงาน\n\n- 6.ความผิดเกี่ยวกับเพศ\n\n- กระทำชำเรา\n\n- กระทำอนาจาร",
+      "translations": {
+        "en": "1. Offenses Against Life and Body\n\n- Murder\n\n- Attempted Murder\n\n- Bodily Injury\n\n2. Property Offenses\n\n- Theft\n\n- Snatching\n\n- Robbery\n\n- Extortion and Coercion\n\n- cheating and fraud\n\n- misappropriation\n\n3. Offenses Relating to Documents and Forgery\n\n- Document Forgery\n\n- Use of Forged Documents\n\n- Forgery of Official Documents\n\n4. Offenses Related to Personal Liberty\n\n- Unlawful Detention and Confinement\n\n- Coercion and Intimidation\n\n5. Offenses Against the State\n\n- Terrorism\n\n- Insurrection / Rebellion\n\n- Contempt of Official\n\n6. OFFENCE RELATING TO SEXUALITY\n\n- Rape and Sexual Assault",
+        "ja": "１．生命・身体に対する犯罪\n- 殺人（刑法第288条）\n- 殺人未遂（刑法第288条及び第80条）\n- 傷害（刑法第295条）\n- 強姦（刑法第276条）\n\n- ２．財産に関する犯罪\n- 窃盗（刑法第334条）\n- ひったくり（刑法第336条）\n- 強盗（刑法第339条）\n- 恐喝・脅迫（刑法第337条）\n- 詐欺（刑法第341条）\n- 横領（刑法第352条）\n\n- ３．文書及び偽造に関する犯罪\n- 文書偽造（刑法第264条）\n- 偽造文書の使用（刑法第268条）\n- 公文書偽造（刑法第265条）\n\n- ４．自由に対する犯罪\n- 監禁・拘束（刑法第310条）\n- 強要・脅迫（刑法第309条）\n\n- ５．国家に対する犯罪\n- テロ行為（刑法第135/1条）\n- 反乱（刑法第113条）\n- 公務員に対する侮辱（刑法第136条）\n\n- ６．性犯罪\n- 強姦（刑法第276条）\n- わいせつ行為（刑法第278条）",
+        "zh": "",
+        "ko": ""
+      }
+    },
+    {
+      "id": 3,
+      "tag": "case",
+      "service": "คดีผู้บริโภค",
+      "content": "- 1 คดีซื้อขายสินค้า\n-        ซื้อโทรศัพท์มือถือแล้วเครื่องมีปัญหา ผู้ขายไม่ยอมรับคืนหรือไม่รับประกัน\n-        ซื้อเครื่องใช้ไฟฟ้า แต่สินค้ามีตำหนิ/ชำรุดตั้งแต่แรก\n- 2 คดีบริการ\n-        ฟ้องบริษัทประกันภัยที่ไม่ยอมจ่ายค่าสินไหมทดแทน\n-        ฟ้องโรงพยาบาล/คลินิก ที่รักษาผิดพลาดหรือคิดค่ารักษาไม่เป็นธรรม\n-        ฟ้องบริษัททัวร์ที่ไม่จัดบริการตามที่โฆษณา\n- 3  คดีสัญญาทางการเงิน\n-        คดีบัตรเครดิตหรือสินเชื่อ ที่คิดดอกเบี้ยเกินกว่ากฎหมายกำหนด\n-        ฟ้องธนาคารที่บังคับใช้สัญญาเอาเปรียบผู้บริโภค\n- 4 คดีอสังหาริมทรัพย์/ที่อยู่อาศัย\n-        ซื้อบ้าน/คอนโด แต่โครงการส่งมอบล่าช้า หรือไม่ตรงตามสัญญา\n-        ฟ้องเรียกค่าเสียหายจากผู้ประกอบการที่ก่อสร้างไม่ได้มาตรฐาน\n- 5  คดีบริการโทรคมนาคม/อินเทอร์เน็ต\n-        ฟ้องผู้ให้บริการอินเทอร์เน็ตที่ไม่ให้บริการตามแพ็กเกจที่โฆษณา\n-        ผู้ให้บริการโทรศัพท์คิดค่าบริการเกินจริง",
+      "translations": {
+        "en": "1.Product Sales Cases\n\n- Purchase of defective mobile phones where sellers refuse returns or warranty coverage\n\n- Purchase of electrical appliances with manufacturing defects or initial damage\n\n- 2.Service Cases\n\n- Claims against insurance companies refusing to pay compensation\n\n- Claims against hospitals/clinics for medical malpractice or unfair billing practices\n\n- Claims against tour operators failing to deliver advertised services\n\n- 3.Financial Contract Cases\n\n- Credit card or loan cases involving interest rates exceeding legal limits\n\n- Claims against banks enforcing unconscionable contract terms\n\n- 4.Real Estate and Residential Property Cases\n\n- Purchase of houses/condominiums with delayed delivery or non-compliance with contract terms\n\n- Claims for damages against developers for substandard construction quality\n\n5. Telecommunications and Internet Service Cases\n\n- Claims against internet service providers failing to deliver advertised packages",
+        "ja": "１．商品売買に関する訴訟\n- ・携帯電話を購入したが不具合があり、販売者が返品や保証を受け付けない\n- ・電化製品を購入したが、初めから欠陥や破損がある\n\n- ２．サービスに関する訴訟\n\n- ３．金融契約に関する訴訟\n\n- ４．不動産／住宅に関する訴訟\n- ・家やマンションを購入したが、引渡しが遅れる、または契約通りでない事例\n\n- ５．通信／インターネットサービスに関する訴訟",
+        "zh": "",
+        "ko": ""
+      }
+    },
+    {
+      "id": 4,
+      "tag": "case",
+      "service": "คดีแรงงาน",
+      "content": "1  คดีเลิกจ้างไม่เป็นธรรม\n-        นายจ้างเลิกจ้างโดยไม่มีเหตุผลอันสมควร หรือละเมิดกฎหมาย เช่น เลิกจ้างทันทีโดยไม่บอกกล่าวล่วงหน้า\n-        ลูกจ้างฟ้องเรียกค่าเสียหายหรือขอกลับเข้าทำงาน\n- 2  คดีค่าชดเชยตามกฎหมาย\n-        นายจ้างเลิกจ้างโดยไม่จ่ายค่าชดเชยตามมาตรา 118 แห่ง พ.ร.บ.คุ้มครองแรงงาน พ.ศ. 2541\n-        ฟ้องเรียกค่าชดเชยแทนการบอกกล่าวล่วงหน้า\n- 3 คดีค่าแรงและสิทธิประโยชน์อื่น ๆ\n-        ฟ้องเรียกค่าแรง ค่าล่วงเวลา ค่าทำงานในวันหยุด\n-        ฟ้องเรียกโบนัส/สวัสดิการที่เป็นสัญญาหรือข้อบังคับเกี่ยวกับการทำงาน\n- 4  คดีจากสัญญาจ้างแรงงานพิเศษ\n-        ฟ้องเรียกค่าเสียหายเพราะลูกจ้างทำผิดสัญญา เช่น ไม่ทำงานครบกำหนดตามที่ตกลง\n-        นายจ้างฟ้องลูกจ้างเรียกค่าเสียหายจากการละเมิด เช่น ทำทรัพย์สินบริษัทเสียหาย\n- 5  คดีอื่น ๆ ตามกฎหมายแรงงาน\n-        ฟ้องให้นายจ้างปฏิบัติตามข้อตกลงเกี่ยวกับสภาพการจ้าง\n-        ข้อพิพาทเกี่ยวกับการโอนสิทธิของลูกจ้างเมื่อนายจ้างเปลี่ยนเจ้าของกิจการ",
+      "translations": {
+        "en": "1. Wrongful Termination Cases\n\n- Employers terminating employment without just cause or in violation of law\n\n- Employee claims for damages or reinstatement\n\n- 2.Statutory Compensation Cases\n\n- Employers terminating employment without paying severance under Section 118 of the Labor Protection Act B.E. 2541\n\n- Employee claims for compensation in lieu of advance notice\n\n- 3.Wages and Benefits Cases\n\n- Claims for wages, overtime pay, holiday work compensation\n\n- Claims for bonuses or benefits stipulated in employment contracts or work regulations\n\n- 4.Special Employment Contract Cases\n\n- Claims for damages due to employee breach of contract\n\n- Employer claims against employees for tortious damage to company property\n\n- 5.Other Labor Law Cases\n\n- Actions requiring employers to comply with employment condition agreements",
+        "ja": "１．不当解雇の訴訟\n- ・雇用者が正当な理由なく解雇する、または法律に違反して解雇した事例（例：事前通知なしの即時解雇）\n\n- ２．法定補償に関する訴訟\n- ・雇用者が労働者保護法（仏歴2541年）の第118条に基づく解雇補償を支払わずに解雇した事例\n\n- ３．賃金およびその他の給付に関する訴訟\n- ・賃金、残業手当、休日労働手当の請求訴訟\n\n- ４．特別雇用契約に関する訴訟\n- ・労働者が契約違反をした場合の損害賠償請求（例：合意された期間の満了前に退職した）\n- ・雇用者が労働者を訴えて損害賠償を求める訴訟（例：会社の財産を損壊した）\n\n- ５．その他労働法関連の訴訟",
+        "zh": "",
+        "ko": ""
+      }
+    },
+    {
+      "id": 5,
+      "tag": "case",
+      "service": "คดีเยาวชนและครอบครัว",
+      "content": "1. คดีเยาวชน\n\n- คดีที่เด็กหรือเยาวชน กระทำความผิด เช่น\n\n- คดียักยอกทรัพย์\n\n- คดีลักทรัพย์\n\n- คดียาเสพติด\n\n- คดีทำร้ายร่างกาย\n\n2. คดีครอบครัว\n\n- คดีฟ้องหย่า\n\n- คดีขอใช้อำนาจปกครองบุตร\n\n- คดีเรียกค่าอุปการะเลี้ยงดูบุตรหรือคู่สมรส\n\n- คดีขอรับบุตรบุญธรรม\n\n- คดีเพิกถอนอำนาจปกครองบุตร\n\n- คดีมรดกเกี่ยวกับบุตรผู้เยาว์",
+      "translations": {
+        "en": "1. Juvenile Cases\n\n- Cases where children or juveniles commit offenses, such as:\n\n- Misappropriation\n\n- Theft\n\n- Drug Offenses\n\n- Assault and Battery\n\n- 2.Family Cases\n\n- Divorce Proceedings\n\n- Applications for Exercise of Parental Authority\n\n- Maintenance Claims for Children or Spouses\n\n- Adoption Proceedings\n\n- Revocation of Parental Authority",
+        "ja": "１．少年犯罪（刑事事件）\n- 7～18歳の子どもや青少年が犯した犯罪に関する訴訟：\n\n- 薬物関連犯罪（少量所持・使用）\n\n- ２．家庭に関する訴訟（民事事件）",
+        "zh": "",
+        "ko": ""
+      }
+    },
+    {
+      "id": 6,
+      "tag": "case",
+      "service": "คดีทรัพย์สินทางปัญญาและการค้าระหว่างประเทศ",
+      "content": "1. คดีทรัพย์สินทางปัญญา\n\n-คดีลิขสิทธิ์\n\n- ผู้ผลิตเพลง/หนังฟ้องร้านค้าเปิดเพลง/ฉายหนังละเมิดลิขสิทธิ์\n\n- บริษัทซอฟต์แวร์ฟ้องใช้โปรแกรมละเมิดลิขสิทธิ์\n\n-คดีสิทธิบัตร/อนุสิทธิบัตร\n\n- บริษัท A ฟ้องบริษัท B ลอกเลียนแบบสิ่งประดิษฐ์ที่ตนจดสิทธิบัตรไว้\n\n-คดีละเมิดสิทธิบัตรยา\n\n- คดีเครื่องหมายการค้า\n\n- เจ้าของแบรนด์เสื้อผ้าฟ้องผู้ผลิตสินค้าปลอมแปลงเครื่องหมายการค้า\n\n- ร้านอาหารใช้โลโก้คล้ายกันจนผู้บริโภคสับสน\n\n- คดีความลับทางการค้า\n\n- อดีตพนักงานนำสูตรลับทางการผลิตไปเผยแพ้ให้คู่แข่ง\n\n2. คดีการค้าระหว่างประเทศ\n\n- คดีสัญญาซื้อขายสินค้าระหว่างประเทศ\n\n- บริษัทไทยฟ้องบริษัทต่างประเทศส่งมอบสินค้าไม่ตรงตามสัญญา\n\n- คดีการขนส่งระหว่างประเทศ\n\n- สายการเดินเรือ/สายการบินทำสินค้าสูญหายหรือเสียหายระหว่างขนส่ง\n\n- คดีเกี่ยวกับตราสารทางการเงินระหว่างประเทศ\n\n- คดีเช็ค ตั๋วแลกเงิน L/C ที่เกี่ยวกับการค้าระหว่างประเทศ\n\n- คดีตามกฎหมายพิเศษ\n\n- คดีละเมิดมาตรการป้องกันการทุ่มตลาด\n\n- คดีเกี่ยวกับกฎหมายศุลกากรที่เชื่อมโยงกับการค้าระหว่างประเทศ",
+      "translations": {
+        "en": "1. Intellectual Property Cases Copyright Cases\n\n- Music or film producers suing retail establishments for copyright infringement through unauthorized playing or screening\n\n- Software companies suing for unauthorized program use Patent and Petty Patent Cases\n\n- Company A suing Company B for copying patented inventions\n\n- Pharmaceutical patent infringement cases\n\n- Trademark Cases\n\n- Brand owners suing manufacturers of counterfeit goods bearing their trademarks\n\n- Restaurants using confusingly similar logos causing consumer confusion\n\n- Trade Secret Cases\n\n- Former employees disclosing proprietary manufacturing formulas to competitors\n\n- 2.International Trade Cases\n\n- International Sales Contract Cases\n\n- companies suing foreign companies for non-conforming delivery under contract International Transportation Cases\n\n- International Financial Instrument Cases\n\n- Cases involving checks, bills of exchange, or Letters of Credit related to international trade\n\n- Anti-dumping measure violation cases",
+        "ja": "１．知的財産に関する訴訟\n- ・店舗が無断で音楽を流したり映画を上映したりしたとして、音楽・映画制作会社が、店舗を著作権侵害で提訴\n- ・ソフトウェア会社が、違法コピー・不正使用に対して提訴\n\n- ・A社が、特許登録済みの発明をB社が模倣したとして提訴\n\n- ・アパレルブランドの所有者が、偽ブランド品製造者を商標権侵害で提訴\n- ・飲食店が類似ロゴを使用し、消費者に混乱を生じさせたことに対する訴訟\n\n- ２．国際商取引に関する訴訟\n- ・タイ企業が、外国企業による契約不適合品の納品を理由に提訴\n\n- ・国際取引に関連する小切手、為替手形、信用状（L/C）に関する訴訟",
+        "zh": "",
+        "ko": ""
+      }
+    },
+    {
+      "id": 7,
+      "tag": "case",
+      "service": "คดีล้มละลาย",
+      "content": "1.คดีล้มละลายของบริษัท/นิติบุคคล\n\n- บริษัทก่อสร้างมีหนี้สินรวม 100 ล้านบาท ไม่สามารถชำระหนี้ให้ธนาคารและผู้รับเหมารายอื่นได้ → ผู้รับเหมา/ธนาคารฟ้องล้มละลาย\n\n- ศาลแต่งตั้งผู้จัดการล้มละลายเพื่อบริหารทรัพย์สินของบริษัทและชำระหนี้ให้เจ้าหนี้\n\n2.คดีล้มละลายบุคคลธรรมดา\n\n- นาย A กู้เงินหลายธนาคารรวมกว่า 5 ล้านบาท แต่ไม่สามารถจ่ายดอกเบี้ยและเงินต้นได้ → นาย A ยื่นคำร้องขอล้มละลายหรือเจ้าหนี้ฟ้องล้มละลาย\n\n- ศาลพิจารณาและแต่งตั้ง ผู้จัดการทรัพย์สิน เพื่อขายทรัพย์สินชำระหนี้",
+      "translations": {
+        "en": "1. Corporate and Juristic Person Bankruptcy\n\n- Construction company with THB 100 million in total debt unable to repay banks and other contractors → Contractors or banks file bankruptcy petition\n\n- Court appoints bankruptcy administrator to manage company assets and settle creditor claims\n\n- 2.Individual Bankruptcy\n\n- Individual borrows from multiple banks totaling over THB 5 million but cannot pay interest and principal → Individual files voluntary bankruptcy petition or creditors file involuntary petition",
+        "ja": "１．会社・法人の破産事例\n- ・建設会社が総額1億バーツの債務を抱え、銀行や他の下請け業者に返済できない場合　➡下請け業者や銀行が破産申立てを行う\n- ・裁判所が破産管財人を選任し、会社の資産を管理して債権者に弁済する\n\n- ２．個人の破産事件\n- ・A氏が複数の銀行から合計500万バーツ以上を借りたが、元金と利息を返済できない場合　➡A氏が破産を申請するか、債権者が破産申立てを行う\n- ・裁判所が審理のうえ、財産管理人（管財人）を選任し、資産を売却して債務を返済する",
+        "zh": "",
+        "ko": ""
+      }
+    },
+    {
+      "id": 8,
+      "tag": "case",
+      "service": "คดีภาษีอากร",
+      "content": "1.คดีภาษีเงินได้บุคคลธรรมดา\n\n- นาย A ถูกสรรพากรประเมินภาษีเพิ่มเติม 500,000 บาท เนื่องจากไม่ยื่นเอกสารค่าใช้จ่ายที่ลดหย่อนภาษี\n\n- นาย A ฟ้องขอให้ศาลพิจารณาว่าการประเมินภาษีดังกล่าว เกินจริงหรือไม่\n\n2. คดีภาษีเงินได้นิติบุคคล\n\n- บริษัท B ถูกสรรพากรประเมินภาษี 2 ล้านบาท เนื่องจากไม่รับรู้รายได้บางรายการ\n\n- บริษัทฟ้องต่อศาลอุทธรณ์ภาษี ขอให้ลดจำนวนภาษีที่เรียกเก็บลง\n\n3. คดีภาษีมูลค่าเพิ่ม\n\n- ร้านค้า C ถูกปรับ VAT เพราะไม่ได้ออกใบกำกับภาษีให้ลูกค้า\n\n- ร้านค้าฟ้องเพื่อโต้แย้งการประเมินและค่าปรับ\n\n4. คดีภาษีธุรกิจ/ศุลกากร\n\n- บริษัทนำเข้าสินค้า ถูกประเมินภาษีศุลกากรสูงเกินจริง\n\n- บริษัทฟ้องต่อศาลปกครอง เพื่อขอให้คืนเงินภาษีและลดค่าอากร\n\n5. คดีโทษปรับและดอกเบี้ยภาษี\n\n- ผู้เสียภาษีชำระล่าช้า ถูกเรียกค่าปรับและดอกเบี้ย\n\n- ฟ้องศาลเพื่อขอให้ลดหรือยกเลิกค่าปรับ หากมีเหตุสุดวิสัย",
+      "translations": {
+        "en": "1. Individual Income Tax Cases\n\n- Individual assessed additional tax of THB 500,000 by Revenue Department for failure to submit deductible expense documentation\n\n- Individual files suit requesting court review of whether tax assessment is excessive\n\n- 2.Corporate Income Tax Cases\n\n- Company assessed THB 2 million in taxes by Revenue Department for failure to recognize certain revenue items\n\n- Company files appeal with Tax Court requesting reduction of assessed tax amount\n\n- 3.Value Added Tax Cases\n\n- Retail establishment fined for VAT non-compliance due to failure to issue tax invoices to customers\n\n- Establishment files suit to contest assessment and penalties\n\n- 4.Business Tax and Customs Cases\n\n- Importing company assessed excessive customs duties\n\n- Company files administrative court suit requesting tax refund and duty reduction\n\n- 5.Tax Penalty and Interest Cases\n\n- Taxpayer making late payment charged penalties and interest",
+        "ja": "１．個人所得税に関する訴訟\n- ・A氏が税務当局から追加で50万バーツの課税を受けた（税控除書類を提出しなかったため）\n- ・A氏は、課税額が過大であるかどうかを裁判所に審査してもらうため提訴\n\n- ２．法人所得税に関する訴訟\n- ・B社が税務当局から200万バーツの課税を受けた（特定の収入を計上していなかったため）\n- ・会社は税務控訴裁判所に訴え、課税額の減額を求める\n\n- ３．消費税（VAT）に関する訴訟\n- ・C店が、顧客に税務請求書を発行しなかったため消費税を課される\n\n- ４．事業税／関税に関する訴訟\n- ・輸入会社が、過大に課された関税の納付を命じられた\n- ・会社は行政裁判所に訴え、税金の返還および関税の減額を求める\n\n- ５．税金に関わる罰金および利息の訴訟\n- ・納税者が納付を遅延し、罰金および利息を請求された\n- ・不可抗力（フォース・マジュール）がある場合に、罰金の減額または免除を求めて提訴",
+        "zh": "",
+        "ko": ""
+      }
+    },
+    {
+      "id": 9,
+      "tag": "case",
+      "service": "คดีความอื่นๆ",
+      "content": "",
+      "translations": {
+        "en": "",
+        "ja": "",
+        "zh": "",
+        "ko": ""
+      }
+    },
+    {
+      "id": 10,
+      "tag": "business",
+      "service": "นิติกรรมและสัญญา",
+      "content": "- สัญญาซื้อขาย\n\n- ซื้อขายสินค้า/ทรัพย์สิน เช่น บ้าน รถ เครื่องใช้ไฟฟ้า\n\n- สัญญาเช่า\n\n- เช่าบ้าน เช่าที่ดิน เช่ารถยนต์\n\n- สัญญาจ้างทำของ / บริการ\n\n- จ้างสร้างบ้าน จ้างซ่อมเครื่องจักร\n\n- สัญญากู้ยืมเงิน\n\n- เงินกู้ระหว่างบุคคลหรือกับธนาคาร\n\n- สัญญาเช่าซื้อ\n\n- ซื้อสินค้าผ่านบริษัทไฟแนนซ์\n\n- สัญญาประกัน\n\n- ประกันชีวิต ประกันภัยรถยนต์\n\n- สัญญาทางพาณิชย์อื่น ๆ\n\n- สัญญาร่วมลงทุน\n\n- สัญญาแฟรนไชส์\n\n- สัญญาซื้อขายระหว่างประเทศ",
+      "translations": {
+        "en": "Sales Contracts\n- Purchase and sale of goods or property such as houses, vehicles, and electrical appliances\n\n- Lease Contracts\n- House leases, land leases, and vehicle leases\n\n- Contracts for Work or Services\n- Construction contracts and machinery repair contracts\n\n- Loan Contracts\n- Personal loans or bank loans\n\n- Hire-Purchase and Installment Sales\n- Product purchases through finance companies\n\n- Insurance Contracts\n\n- Life insurance and automobile insurance\n\n- Other Commercial Contracts\n\n- Joint ventures agreements\n\n- franchise agreements\n\n- international sales contracts",
+        "ja": "家、車、電化製品などの商品・資産の売買\n\n- 家屋、土地、車両の賃貸\n\n- 家の建築依頼、機械の修理依頼\n\n- 生命保険、自動車保険\n\n- 合弁契約、フランチャイズ契約、国際売買契約",
+        "zh": "",
+        "ko": ""
+      }
+    },
+    {
+      "id": 11,
+      "tag": "business",
+      "service": "ธุรกิจและการลงทุน",
+      "content": "- การขออนุญาตประกอบธุรกิจ\n\n- ธุรกิจค้าปลีก / ขายสินค้า\n\n- ร้านอาหาร: ขออนุญาตจาก เทศบาล / องค์การบริหารส่วนท้องถิ่น\n\n- ร้านขายเครื่องดื่มแอลกอฮอล์: ขออนุญาต สำนักงานสรรพสามิต\n\n- ธุรกิจโรงแรม / ที่พัก\n\n- ขออนุญาตจาก กรมการท่องเที่ยว\n\n- ต้องยื่นเอกสาร เช่น แบบแปลน อาคาร ใบอนุญาตก่อสร้าง\n\n- ธุรกิจนำเข้า-ส่งออก\n\n- ขออนุญาตจาก กรมศุลกากร\n\n- สำหรับสินค้าควบคุม เช่น อาหาร ยา เครื่องสำอาง ต้องมี ใบอนุญาตเฉพาะ\n\n- ธุรกิจโรงงาน / อุตสาหกรรม\n\n- ขออนุญาตจาก กรมโรงงานอุตสาหกรรม\n- ต้องทำ รายงานการประเมินผลกระทบสิ่งแวดล้อม หากมีผลกระทบสูง\n- ธุรกิจโรงเรียน รงเรียนเอกชน / โรงเรียนอนุบาล / ศูนย์พัฒนาเด็กเล็ก/ โรงเรียนอาชีวศึกษาเอกชน\n- ขออนุญาตจาก สำนักงานคณะกรรมการการศึกษาเอกชน /  กระทรวงศึกษาธิการ /องค์การปกครองส่วนท้องถิ่น\n\n- ธุรกิจทางการเงิน / ประกัน / หลักทรัพย์\n\n- ธนาคาร: ขออนุญาตจาก ธนาคารแห่งประเทศไทย\n\n- บริษัทหลักทรัพย์: ขออนุญาตจาก สำนักงานคณะกรรมการกำกับหลักทรัพย์และตลาดหลักทรัพย์",
+      "translations": {
+        "en": "Business Licensing\n\n- Retail / Goods Sales\n\n- Restaurants: Obtain permission from the Municipality / Local Administrative Organization\n\n- Alcohol beverage shops: Obtain a license from the Excise Department\n\n- Hotel / Accommodation Business:\n- Obtain permission from the Department of Tourism\n\n- Required documents include building plans and construction permits\n\n- Import-Export Business: Obtain permission from the Customs Department\n\n- For controlled items such as food, drugs, or cosmetics, a special license is required\n\n- Factory / Industrial Business: Obtain permission from the Department of Industrial Works\n\n- Environmental Impact Assessment required if significant impact is expected\n\n- Private Educational Institutions\n- Elementary and Secondary Schools, Kindergartens, Child Development Centers, Private Vocational Schools: Obtain permission from the Office of the Private Education Commission / Ministry of Education / Local Administrative Organization\n\n- Financial / Insurance / Securities Business\n\n- Banks: Obtain permission from the Bank of Thailand\n\n- Securities Companies: Obtain permission from the Securities and Exchange Commission",
+        "ja": "小売業／物販事業\n- ・飲食店：市役所 / 地方自治体の許可が必要\n- ・酒類販売店：国税局（酒税局）の許可が必要\n\n- ホテル／宿泊業\n- ・建物図面、建設許可証などの書類提出が必要\n\n- ・食品、医薬品、化粧品などの規制品目は個別の許可が必要\n\n- 工場／産業事業\n- ・工業省（工場局）の許可が必要\n- ・影響が大きい場合は、環境影響評価（EIA）の提出が必要\n\n- 学校 ／私立教育機関（小中学校、 幼稚園 、保育施設、職業学校）\n- ・私立教育委員会（OPEC）、教育省 、地方自治体（区役所、市役所）の許可が必要\n\n- 金融 ／保険／証券関連事業\n- ・銀行：タイ銀行（中央銀行）の許可が必要\n- ・証券会社：証券取引委員会（SEC）の許可が必要",
+        "zh": "",
+        "ko": ""
+      }
+    },
+    {
+      "id": 12,
+      "tag": "business",
+      "service": "งานทะเบียนบริษัท",
+      "content": "- การจดทะเบียนจัดตั้งบริษัท\n\n- จดทะเบียนบริษัทจำกัด หรือบริษัทมหาชนจำกัด\n\n- เอกสารประกอบ: หนังสือบริคณห์สนธิ, รายชื่อผู้ถือหุ้น, หนังสือรับรองที่ตั้งสำนักงาน\n\n- การเปลี่ยนแปลงข้อมูลบริษัท\n\n- เปลี่ยนชื่อบริษัท\n\n- เปลี่ยนที่ตั้งสำนักงาน\n\n- เปลี่ยนกรรมการหรือผู้ถือหุ้น\n\n- เพิ่มทุน ลดทุน\n\n- การเลิกบริษัท / ชำระบัญชี\n\n- ขอจดทะเบียนเลิกบริษัท\n\n- แจ้งผู้ชำระบัญชีและระยะเวลาการชำระหนี้\n\n- การจัดทำงบการเงินและรายงานประจำปี\n\n- ยื่นงบการเงินประจำปีต่อกรมพัฒนาธุรกิจการค้า\n\n- รายงานผลประกอบการ, กำไรขาดทุน, สินทรัพย์-หนี้สิน\n\n- การจดทะเบียนธุรกิจสาขาหรือบริษัทย่อย\n\n- แจ้งการเปิดสาขาในจังหวัดอื่น\n\n- เปลี่ยนแปลงข้อมูลสาขา\n\n- การออกใบรับรอง / ตรวจสอบข้อมูลบริษัท\n\n- ใบรับรองบริษัทมีอยู่จริง\n\n- ตรวจสอบทะเบียนผู้ถือหุ้น กรรมการ และทุนจดทะเบียน",
+      "translations": {
+        "en": "Company Registration Services\n\n- Company Incorporation\n- Register a Limited Company or a Public Limited Company\n- Required documents: Memorandum of Association, List of Shareholders, Certificate of Registered Office\n\n- Company Information Changes\n- Change company name\n- Change office address\n- Change directors or shareholders\n- Increase or decrease registered capital\n\n- Company Dissolution / Liquidation\n- Apply for company dissolution registration\n- Notify the liquidator and debt settlement period\n\n- Financial Statements and Annual Reports\n- Submit annual financial statements to the Department of Business Development\n- Report business performance, profit and loss, assets and liabilities\n\n- Branch or Subsidiary Registration\n- Notify opening of branches in other provinces\n- Update branch information\n\n- Certificates / Company Information Verification\n- Certificate of existence of the company\n- Verify shareholder register, directors, and registered capital",
+        "ja": "必要書類：定款、株主名簿、事務所所在地証明書\n\n- 会社解散／清算\n\n- ・事業報告、損益、資産、負債の報告\n\n- 証明書／会社情報確認\n- ・株主名簿、取締役、登録した資本金の確認",
+        "zh": "",
+        "ko": ""
+      }
+    },
+    {
+      "id": 13,
+      "tag": "business",
+      "service": "การลงทุน",
+      "content": "- ลงทุนในอสังหาริมทรัพย์หรือโครงการใหญ่\n-        ซื้อที่ดิน โรงแรม คอนโด หรือโครงการพัฒนา → ต้องตรวจ สิทธิการถือครอง, โฉนด, ภาระจำยอม\n-        การก่อสร้างหรือโครงการขนาดใหญ่ → อาจต้องทำ รายงานผลกระทบสิ่งแวดล้อม\n- โครงสร้างสัญญาและข้อตกลง\n-        สัญญาหุ้นส่วน, สัญญาร่วมทุน, สัญญาแฟรนไชส์, ข้อตกลงการถือหุ้น\n-        สัญญาเงินกู้, การประกันความเสี่ยง",
+      "translations": {
+        "en": "Investing in Real Estate or Large Projects\n\n- Buying land, hotels, condominiums, or development projects → Must verify ownership rights, title deeds, and easements\n\n- Construction or large-scale projects → May require an Environmental Impact Assessment\n\n- Contract Structures and Agreements\n\n- Partnership agreements, joint venture agreements, franchise agreements, and shareholding agreements",
+        "ja": "土地、ホテル、コンドミニアム、開発プロジェクトの購入　➡ 所有権、権利証明、地役権を確認する必要があります。\n- ・建設工事・大規模プロジェクト　➡環境影響評価（EIA）が必要な場合があります。\n\n- ・パートナーシップ契約、ジョイントベンチャー契約、フランチャイズ契約、株主間合意\n- ・融資契約、リスク保証（リスクヘッジ）契約",
+        "zh": "",
+        "ko": ""
+      }
+    },
+    {
+      "id": 14,
+      "tag": "visa",
+      "service": "ปรึกษาวีซ่า และใบอนุญาตทำงาน",
+      "content": "1. วีซ่าชั่วคราว\n- ใช้สำหรับเดินทางเข้าประเทศเพื่อจุดประสงค์ที่ไม่ใช่การตั้งถิ่นฐานในระยะยาว ส่วนใหญ่จะอยู่ในระยะเวลาไม่กี่วันจนถึงไม่กี่ปี\n- วีซ่าท่องเที่ยว : สำหรับการเดินทางเพื่อพักผ่อน, เยี่ยมเยียนญาติ, หรือท่องเที่ยว\n- วีซ่าธุรกิจ : สำหรับการเดินทางไปเจรจาธุรกิจ, ประชุม หรือดูงาน\n- วีซ่านักเรียน/นักศึกษา : สำหรับผู้ที่เดินทางไปศึกษาในสถาบันการศึกษาของประเทศนั้นๆ\n- วีซ่าทำงาน : สำหรับผู้ที่ได้รับการจ้างงานจากบริษัทในต่างประเทศ\n- วีซ่าสำหรับผู้ติดตาม : สำหรับคู่สมรสหรือบุตรที่ติดตามผู้ถือวีซ่าหลัก\n- วีซ่ารักษาพยาบาล : สำหรับผู้ที่เดินทางไปรักษาตัวที่โรงพยาบาลในต่างประเทศ\n- วีซ่าเพื่อเข้าร่วมโครงการแลกเปลี่ยน : เช่น โครงการ Work and Travel\n2. วีซ่าถาวร\n- ใช้สำหรับผู้ที่ต้องการย้ายไปพำนักอาศัยในประเทศนั้นอย่างถาวรหรือเป็นเวลานานมาก มักจะนำไปสู่การขอสัญชาติในอนาคต\n- วีซ่าแต่งงาน\n- วีซ่าตามความสัมพันธ์ทางครอบครัว: สำหรับคู่สมรส, บุตร, หรือบิดามารดาของพลเมืองในประเทศนั้นๆ\n- วีซ่าตามความสามารถหรือการจ้างงาน: สำหรับผู้ที่มีทักษะหรือความสามารถพิเศษที่ประเทศนั้นๆ ต้องการ\n- วีซ่าลงทุน: สำหรับนักลงทุนที่นำเงินไปลงทุนในประเทศนั้นตามเงื่อนไขที่กำหนด\n- วีซ่าผู้พำนักระยะยาว : สำหรับผู้ที่ต้องการพักอาศัยระยะยาวโดยมีเงื่อนไขเฉพาะ เช่น วีซ่าเกษียณอายุ",
+      "translations": {
+        "en": "1. Non-Immigrant Visas\n- Used for entering a country for purposes other than long-term residence. Usually valid from a few days up to several years.\n-Tourist Visa: For travel, leisure, visiting relatives, or tourism\n-Business Visa: For business meetings, negotiations, or work-related visits\n-Student Visa: For studying at educational institutions in the country\n-Work Visa: For individuals employed by a company in the country\n-Dependent Visa: For spouses or children accompanying the main visa holder\n-Medical Visa: For individuals traveling for medical treatment at hospitals\n-Exchange Visitor Visa: For participation in exchange programs such as Work and Travel\n\n2. Immigrant Visas\n- Used for those who intend to reside permanently or long-term in a country. Often leads to eligibility for permanent residence or future citizenship.\n\n-Marriage Visa: For individuals married to citizens of the country\n-Family-Based Visa: For spouses, children, or parents of citizens\n-Employment/Skill-Based Visa: For individuals with specialized skills or expertise needed in the country\n-Investor Visa: For investors bringing capital into the country under specific conditions\n-Long-Term Resident Visa: For those wishing to reside long-term under specific conditions, such as retirement visas",
+        "ja": "１．非移民ビザ（Non-Immigrant Visas）\n- 永住を目的としない入国のためのビザで、通常、数日から数年間の滞在期間です。\n\n- ・観光ビザ: 観光、休暇、親族訪問などが目的のビザ\n- ・ビジネスビザ: 商談、会議、視察などが目的のビザ\n- ・学生ビザ: 現地の教育機関で学ぶことが目的のビザ\n- ・就労ビザ: 現地企業で就労することが目的のビザ\n- ・帯同ビザ: 就労ビザや学生ビザなど主ビザ保有者に同行する配偶者や子供のためのビザ\n- ・医療ビザ: 現地の医療機関で治療を受けるためのビザ\n- ・交流プログラムビザ: Work&Travelなどの交流・交換プログラム参加のためのビザ\n\n- ２．移民ビザ（Immigrant Visas）\n- 永住または長期滞在を目的とするビザ。将来的に国籍取得につながることがあります。\n\n- ・家族ビザ: 現地市民の配偶者、子供、または親のためのビザ\n- ・技能・就労ビザ: その国が求める高度な技能や専門スキルを持つ人のためのビザ\n- ・投資家ビザ: 特定の条件下で投資する人のためのビザ\n- ・長期滞在ビザ: 特定の条件下で長期滞在を希望する人のためのビザ（例：リタイアメントビザ）",
+        "zh": "",
+        "ko": ""
+      }
+    },
+    {
+      "id": 15,
+      "tag": "investigation",
+      "service": "บริการสืบ",
+      "content": "1.สืบทรัพย์\n- สืบทรัพย์บังคับคดี ยึดทรัพย์ บ้าน ที่ดิน\n- คอนโด ยานพาหนะ เงินสด รับสืบทั่วราชอาณาจักร\n\n- 2.สืบชู้สาว\n- หาหลักฐานฟ้องคดีชู้สาว\n\n- 3.สืบธุรกิจ\n- สืบข้อมูลธุรกิจ คู่แข่งทางการค้า\n\n- 4.สืบอื่นๆ",
+      "translations": {
+        "en": "1. Asset Investigation\n\n- Investigation of assets for legal enforcement proceedings, seizure of property including houses, land, condominiums, vehicles, cash—services available nationwide\n\n2. Infidelity Investigation\n\n- Evidence gathering for adultery-related cases\n\n3. Business Investigation\n\n- Business intelligence and competitor research\n\n4. Other Investigative Services",
+        "ja": "1. 資産調査\n\n- 強制執行のための調査\n\n- 家屋・コンドミニアム・土地・車両・現金などの差し押さえ対象資産の調査\n\n- タイ全国での調査に対応\n\n2. 不倫調査\n\n- 不貞行為に関する訴訟のための証拠収集\n\n3. 企業調査\n\n- 事業情報の調査\n\n- ビジネス上の競合相手に関する調査\n\n4. その他の調査",
+        "zh": "",
+        "ko": ""
+      }
+    },
+    {
+      "id": 16,
+      "tag": "business",
+      "service": "บัญชี",
+      "content": "1.ยื่นภาษี\n- 2.ยื่นประกันสังคมรายเดือน\n- 3.ยื่นงบการพัฒนาธุรกิจการค้าประจำปี\n- 4.ปิดงบกำไร-ขาดทุน\n- 5.ทำรายละเอียดประกอบงบการเงิน\n- 6.วิเคราะห์งบการเงินให้ลูกค้า\n- 7.ประสานงานกับสำนักงานผู้สอบบัญชี",
+      "translations": {
+        "en": "1. Tax Filing\n- 2. Monthly Social Security 3. Submissions\n- Annual Business Development\n- 4. Report Filing Profit and Loss Statements\n- 5. Financial Statement Notes Preparation\n- 6. Financial Analysis for Clients\n- 7. Coordination with Audit Firms",
+        "ja": "１．税務申告\n- ２．毎月の社会保険申告\n- ３．商業省事業開発局への年次財務諸表の提出\n- ４．損益計算書の作成（決算）\n- ５．財務諸表附属明細書の作成\n- ６．顧客向けの財務分析\n- ７．監査法人（公認会計士事務所）との調整",
+        "zh": "",
+        "ko": ""
+      }
+    },
+    {
+      "id": 17,
+      "tag": "document",
+      "service": "รับรองเอกสารโนตารี",
+      "content": "1. รับรองเอกสารโนตารีไปใช้การประกอบกิจการในต่างประเทศ เช่น ร้านอาหารในสหรัฐอเมริกา จะมีการรับรองลายมือชื่อในสัญญาชื้อขาย  และรับรองสัญญาเช่าเพื่อนำไปออกวีซ่าทำงานในประเทศสหรัฐอเมริกา  ประเทศญี่ปุ่นจะต้องมีการรับรองลายมือชื่อ ส่วนมอร็อกโกต้องรับรองใบผ่านงาน\n\n- 2 รับรองเอกสารโนตารี รับรองเอกสารเพื่อใช้ในชื้อที่ดิน สิ่งปลูกสร้างในต่างประเทศ หรือขายที่ดิน บ้านในต่างประเทศ หรือเพื่อเช่าที่อยู่ในต่างประเทศ\n\n- 3 รับรองเอกสารโนตารี สัญญาจ้าง สัญญาชื้อกิจการจำพวก SME เพื่อขอวีซ่าทำงานหรือประกอบอาชีพในต่างประเทศ\n\n- 4 รับรองเอกสารเพื่อใช้ในการจดทะเบียนบริษัทในต่างประเทศ เช่น ที่ฮ่องกง สิงค์โปร์ ไซปรัส\n\n- 5 รับรองเอกสารโนตารี เพื่อขอสัญชาติ ในกรณีเป็นนักลงทุนในต่างประเทศ ในบางประเทศ เช่น ประเทศไซปรัส โดมินิก้า กัวเตมาลา\n\n- 6 รับรองเอกสารโนตารี เพือใช้ในการรับเงินบำนาญ ขอคืนภาษี เงินประกัน เงินกองทุน เปิดบัญชีหรือปิดบัญชีเงินฝากในต่างประเทศ หรือกรณีคนต่างประเทศมาเปิดบัญชีธนาคารในประเทศไทย\n\n- 7 รับรองเอกสารการซื้อขายเรือ\n\n- 8 รับรองเอกสารเกี่ยวกับ สิทธิบัตร ใบอนุญาตจากองค์การอาหารและยา เพื่อใช้ในต่างประเทศ\n\n- 9 รับรองเอกสารเพื่อไปขึ้นทะเบียน เป็น Broker ซึิอขายหลักทรัพย์ หรือค่าเงินในต่างประเทศ",
+      "translations": {
+        "en": "1. Notarial certification for business operations abroad, such as U.S. restaurant businesses requiring signature certification on sales contracts and lease agreements for U.S. work visa applications; Japan requiring signature certification; Morocco requiring work certificate authentication\n\n- 2. Notarial certification for documents used in purchasing land and buildings abroad, selling property abroad, or leasing foreign residences\n\n- 3. Notarial certification of employment contracts or SME business purchase agreements for work visas or professional practice abroad\n\n- 4. Document certification for company registration abroad, such as Hong Kong, Singapore, or Cyprus\n\n- 5. Notarial certification for citizenship applications in cases of foreign investment in certain countries, such as Cyprus, Dominica, or Guatemala\n\n- 6. Notarial certification for receiving pension payments, tax refunds, insurance proceeds, fund withdrawals, opening or closing foreign bank accounts, or foreigners opening bank accounts in Thailand\n\n- 7. Vessel sale and purchase document certification\n\n- 8. Certification of documents concerning patents or FDA permits for use abroad\n\n- 9. Document certification for registration as a securities or foreign exchange broker abroad",
+        "ja": "１．海外での事業に使用するための書類・文書の公証\n- 例：アメリカの飲食店では、売買契約書の署名の公証や、就労ビザ申請のための賃貸契約書の公証が必要です。また、日本では署名の公証が必要で、モロッコでは職務経歴証明書の公証が必要となります。\n\n- ２．書類・文書の公証\n- 海外での土地や建物の購入、土地や住宅の売却、海外での住居賃貸のために必要な書類の公証\n\n- ３．書類・文書の公証（雇用契約・中小企業の事業買収契約など）\n- 就労ビザの申請や海外での就労を目的とした雇用契約書、中小企業の事業買収契約書の公証\n\n- ４．海外での会社登記に使用する書類の公証\n- 例：香港、シンガポール、キプロス\n\n- ５．書類・文書の公証（国籍取得申請用）\n- 海外投資家として国籍を取得する際に使用する書類の公証（例：キプロス、ドミニカ、グアテマラ）\n\n- ６．書類・文書の公証（金融機関関連用）\n- 年金受給、税金還付、保険金、投資信託、海外預金口座開設や解約、または外国人がタイで銀行口座を開設する場合の書類の公証\n\n- ７．船舶売買契約に関する書類の公証\n\n- ８．特許やFDA（食品医薬品局）の許可証など海外で使用する書類の公証\n\n- ９．海外での証券または外国為替仲介業登録のための書類の公証",
+        "zh": "",
+        "ko": ""
+      }
+    },
+    {
+      "id": 18,
+      "tag": "document",
+      "service": "แปลเอกสาร",
+      "content": "1. การแปลเอกสารราชการและส่วนบุคคล\n- นี่คือการแปลที่ใช้สำหรับติดต่อกับหน่วยงานราชการหรือสถานทูตเป็นหลัก ซึ่งต้องใช้ความแม่นยำและรูปแบบที่เป็นทางการ\n\n- เอกสารราชการ: การแปลเอกสารที่ออกโดยหน่วยงานของรัฐ เช่น ทะเบียนบ้าน, บัตรประชาชน, สูติบัตร, ใบเปลี่ยนชื่อ-สกุล, ทะเบียนสมรส, ทะเบียนหย่า, โฉนดที่ดิน, ใบขับขี่\n\n- เอกสารเพื่อการศึกษา: การแปลเอกสารที่ใช้ในการสมัครเรียนต่อต่างประเทศ เช่น ใบรับรองผลการเรียน , ประกาศนียบัตร, ใบปริญญา, จดหมายรับรองจากสถาบันการศึกษา\n\n- เอกสารเพื่อการยื่นขอวีซ่า: การแปลเอกสารที่จำเป็นสำหรับการยื่นขอวีซ่าประเภทต่างๆ เช่น Statement of Purpose, จดหมายเชิญ, ใบรับรองการทำงาน, เอกสารทางการเงิน\n\n- เอกสารด้านกฎหมาย: การแปลพินัยกรรม, หนังสือมอบอำนาจ, คำพิพากษา, สัญญาทางกฎหมาย\n\n2. การแปลเอกสารทางธุรกิจและการตลาด\n- งานแปลประเภทนี้ต้องอาศัยความเข้าใจในเนื้อหาธุรกิจ การตลาด และศัพท์เทคนิคเฉพาะทาง เพื่อให้สื่อสารได้อย่างมีประสิทธิภาพ\n\n- เอกสารทางธุรกิจ: รายงานประจำปี, งบการเงิน, แผนธุรกิจ, หนังสือบริษัท, บันทึกการประชุม, ข้อบังคับบริษัท\n\n- เอกสารทางเทคนิค: คู่มือการใช้งาน, สิทธิบัตร, รายงานวิจัย, ข้อมูลผลิตภัณฑ์\n\n- เอกสารทางการตลาด: เว็บไซต์, โบรชัวร์, แคตตาล็อกสินค้า, บทความ, ข่าวประชาสัมพันธ์, สคริปต์โฆษณา\n\n3. การแปลเฉพาะทางอื่นๆ\n- นอกจากนี้ยังมีงานแปลที่ต้องการความเชี่ยวชาญในสาขาเฉพาะทางที่แตกต่างกันไป\n\n- การแปลทางการแพทย์: รายงานทางการแพทย์, ผลการตรวจวินิจฉัย, เอกสารวิจัยทางคลินิก, บทความวิชาการ\n\n- การแปลวรรณกรรม: หนังสือ, นวนิยาย, บทกวี, บทละคร\n\n- การแปลด้านไอทีและซอฟต์แวร์: คู่มือการใช้งานซอฟต์แวร์, Localization",
+      "translations": {
+        "en": "1. Government and Personal Document Translation\n- Translation primarily used for communication with government agencies or embassies, requiring accuracy and formal formatting.\n\n- Official Documents: Translation of government-issued documents such as household registration, identification cards, birth certificates, name-surname change certificates, marriage certificates, divorce certificates, land title deeds, driver's licenses.\n\n- Educational Documents: Translation of documents for studying abroad, such as transcripts, diplomas, degree certificates, institutional reference letters.\n\n- Visa Application Documents: Translation of documents required for various visa applications, such as Statement of Purpose, invitation letters, employment certificates, financial documents.\n\n- Legal Documents: Translation of wills, powers of attorney, court judgments, legal contracts.\n\n- 2.Business and Marketing Document Translation\n- Translation requiring understanding of business content, marketing, and technical terminology for effective communication.\n\n- Business Documents: Annual reports, financial statements, business plans, corporate brochures, meeting minutes, company regulations.\n\n- Technical Documents: User manuals, patents, research reports, product specifications.\n\n- Marketing Materials: Websites, brochures, product catalogs, articles, press releases, advertising scripts.\n\n- 3.Other Specialized Translation\n- Translation requiring specialized expertise in different fields.\n\n- Medical Translation: Medical reports, diagnostic results, clinical research documents, academic articles.\n\n- Literary Translation: Books, novels, poetry, plays.\n\n- IT and Software Translation: Software user manuals, localization .",
+        "ja": "１．公的・個人文書の翻訳\n- これは官公庁や大使館への申請に用いられる翻訳で、高い正確性と正式な書式が求められます。\n\n- 公的文書：住民票、身分証明書、出生証明書、改名・改姓証明書、結婚証明書、離婚証明書、土地権利証書、運転免許証 などの翻訳\n\n- 教育関連書類：海外留学や進学のための書類（成績証明書、資格証明書、学位証明書、教育機関発行の推薦状など）の翻訳\n\n- ビザ申請用書類：留学や就労ビザ申請のための書類（志望動機、招聘状、在職証明書、財務書類など）の翻訳\n\n- 法務文書：遺言書、委任状、判決文、各種契約書の翻訳\n\n- ２．ビジネス・マーケティング文書の翻訳\n- ビジネスやマーケティングの内容の理解、専門知識などが求められます。\n\n- ビジネス文書：年次報告書、財務諸表、事業計画書、社内文書、議事録、会社規則など\n\n- 技術文書：取扱説明書、特許関連書類、研究報告書、製品情報など\n\n- マーケティング文書：ウェブサイト、パンフレット、製品カタログ、記事、プレスリリース、広告用スクリプトなど\n\n- ３．その他の専門翻訳\n- 特定分野においても専門知識が必要とされます。\n\n- 医療翻訳：医療報告書、診断結果、臨床研究資料、学術論文など\n\n- 文学翻訳：書籍、小説、詩、脚本など\n\n- IT・ソフトウェア翻訳：ソフトウェアマニュアル、ローカリゼーション（現地ユーザー向けに言語や内容の調整）",
+        "zh": "",
+        "ko": ""
+      }
+    },
+    {
+      "id": 19,
+      "tag": "property",
+      "service": "จัดหาที่พักให้ต่างชาติ",
+      "content": "บริการจัดหาที่พักให้ชาวต่างชาติ บ้านพัก คอนโด",
+      "translations": {
+        "en": "Accommodation services for foreigner—residential houses and condominiums.",
+        "ja": "外国人向け住居施設手配サービス（住宅・コンドミニアム）",
+        "zh": "",
+        "ko": ""
+      }
+    },
+    {
+      "id": 20,
+      "tag": "business",
+      "service": "ทนายที่ปรึกษาบริษัท",
+      "content": "ให้ทำปรึกษาบริษัท ด้านกฎหมายที่ทำงานร่วมกับธุรกิจอย่างใกล้ชิด ทำหน้าที่ให้คำปรึกษาและดำเนินการทางกฎหมายที่เกี่ยวข้องกับการดำเนินงานในทุกด้าน ไม่ว่าจะเป็นเรื่องภายในองค์กรหรือการทำธุรกรรมกับภายนอก",
+      "translations": {
+        "en": "Corporate legal advisory services working closely with businesses, providing legal consultation and handling all legal matters related to operations, both internal organizational matters and external transactions.",
+        "ja": "企業法務コンサルティングを提供し、社内業務から対外取引まで、事業運営に関わるあらゆる法的業務について助言とサポートを行います。",
+        "zh": "",
+        "ko": ""
+      }
+    },
+    {
+      "id": 21,
+      "tag": "business",
+      "service": "BOI ต่างชาติเข้ามาทำงานไม่ต้องเสียภาษี",
+      "content": "“BOI” หรือ สำนักงานคณะกรรมการส่งเสริมการลงทุน\n- เป็นหน่วยงานของรัฐบาลไทยภายใต้สำนักนายกรัฐมนตรี มีหน้าที่ส่งเสริมให้เกิดการลงทุนทั้งจากนักลงทุนไทยและต่างชาติ โดยอาศัยอำนาจตาม พระราชบัญญัติส่งเสริมการลงทุน พ.ศ. 2520\n- วัตถุประสงค์หลักของ BOI คือ\n-        กระตุ้นการเติบโตของเศรษฐกิจไทย\n-        ส่งเสริมอุตสาหกรรมที่ใช้เทคโนโลยีและนวัตกรรม\n-        กระจายการลงทุนไปยังภูมิภาคต่าง ๆ\n-        สนับสนุนการจ้างงานและพัฒนาทักษะแรงงานไทย\n- กฎหมายที่เกี่ยวข้อง\n- โครงสร้างทางกฎหมายของ BOI อยู่ภายใต้\n- พระราชบัญญัติส่งเสริมการลงทุน พ.ศ. 2520 และ ประกาศคณะกรรมการส่งเสริมการลงทุน ซึ่งออกเป็นแนวทางปฏิบัติให้สอดคล้องกับยุคสมัย เช่น\n-        ประกาศประเภทกิจการที่ได้รับส่งเสริม\n-        หลักเกณฑ์และเงื่อนไขการขอรับการส่งเสริม\n-        การให้สิทธิประโยชน์แก่ผู้ประกอบการ\n- ประเภทกิจการที่ได้รับส่งเสริม\n- BOI แบ่งกิจการที่ได้รับการส่งเสริมออกเป็น 7 หมวดใหญ่ ได้แก่\n1.        เกษตรกรรมและเทคโนโลยีชีวภาพ – เช่น เกษตรอัจฉริยะ, การผลิตอาหารแปรรูป\n2.        เหมืองแร่ โลหะ และเซรามิกส์ – เช่น การผลิตเหล็กหรือเซรามิกเพื่ออุตสาหกรรม\n3.        อุตสาหกรรมเบา – เช่น สิ่งทอ เครื่องหนัง เฟอร์นิเจอร์\n4.        เครื่องจักร ยานยนต์ และอุปกรณ์ขนส่ง – รวมถึงชิ้นส่วนยานยนต์และอากาศยาน\n5.        อิเล็กทรอนิกส์และเครื่องใช้ไฟฟ้า – เช่น การผลิตชิปและอุปกรณ์อิเล็กทรอนิกส์\n6.        เคมีภัณฑ์ พลาสติก และวัสดุขั้นสูง\n7.        บริการและสาธารณูปโภค – เช่น ศูนย์ข้อมูล ซอฟต์แวร์ โลจิสติกส์ การแพทย์ การศึกษา\n- สิทธิประโยชน์ที่ผู้ประกอบการจะได้รับ\n1. สิทธิประโยชน์ทางภาษี\n-        ยกเว้นภาษีเงินได้นิติบุคคลระยะเวลา 3–8 ปี\n-        ยกเว้นอากรขาเข้าเครื่องจักร\n-        ยกเว้นอากรขาเข้าวัตถุดิบที่ใช้ผลิตเพื่อส่งออก\n-        หักรายจ่ายด้านวิจัยและพัฒนาได้เพิ่มขึ้น\n2. สิทธิประโยชน์ที่ไม่ใช่ภาษี\n-        สิทธิในการถือครองที่ดินสำหรับนักลงทุนต่างชาติ\n-        สิทธิในการนำเข้าผู้เชี่ยวชาญต่างประเทศ\n-        อำนวยความสะดวกด้านวีซ่าและใบอนุญาตทำงาน\n-        อนุญาตให้โอนเงินตราต่างประเทศออกนอกประเทศได้อย่างเสรี\n- พื้นที่ส่งเสริมการลงทุน\n- BOI พิจารณาให้สิทธิประโยชน์แตกต่างกันตาม “พื้นที่เป้าหมาย” เช่น\n-        พื้นที่ทั่วไป – ได้สิทธิน้อย\n-        พื้นที่ส่งเสริมพิเศษ – ได้สิทธิเพิ่มขึ้น\n-        เขตพัฒนาเศรษฐกิจพิเศษ – ได้สิทธิประโยชน์สูงสุด\n- นอกจากนี้ยังมี “พื้นที่เขตนวัตกรรมและเทคโนโลยี” เช่น เขต EEC ซึ่งได้รับสิทธิพิเศษเพิ่มเติม\n- ขั้นตอนการขอรับการส่งเสริมการลงทุน\n1.        ยื่นคำขอ ผ่านระบบออนไลน์ของ BOI\n2.        เข้ารับการสัมภาษณ์ และนำเสนอแผนธุรกิจ\n3.        รอพิจารณาและอนุมัติจากคณะกรรมการ BOI\n4.        ได้รับหนังสือส่งเสริมการลงทุน\n5.        ดำเนินการตามเงื่อนไขและรายงานผลการลงทุน\n- ข้อควรระวังทางกฎหมาย\n-        ผู้ได้รับส่งเสริมต้องปฏิบัติตามเงื่อนไขที่ BOI กำหนด เช่น ระยะเวลาเริ่มโครงการ การใช้วัตถุดิบภายในประเทศ การจ้างงาน\n-        หากไม่ปฏิบัติตาม อาจถูก เพิกถอนสิทธิประโยชน์\n-        กรณีต่างชาติใช้ “นอมินี” ถือหุ้นแทน อาจเข้าข่าย หลีกเลี่ยง พ.ร.บ.การประกอบธุรกิจของคนต่างด้าว พ.ศ. 2542 ซึ่งมีโทษตามกฎหมาย\n- บทสรุป\n- กฎหมายส่งเสริมการลงทุนของไทยภายใต้ BOI เป็นเครื่องมือสำคัญในการพัฒนาเศรษฐกิจ\n- แต่ผู้ประกอบการควรศึกษาเงื่อนไขทางกฎหมายให้ชัดเจนก่อนยื่นคำขอ เพื่อใช้สิทธิประโยชน์ได้อย่างถูกต้องและไม่เสี่ยงต่อการถูกเพิกถอนสิทธิ\n- สำนักงานกฎหมายสามารถให้คำปรึกษาในการวางโครงสร้างบริษัท การยื่นขอ BOI และการปฏิบัติตามข้อกำหนด เพื่อให้ธุรกิจของท่านได้รับสิทธิประโยชน์อย่างเต็มที่ภายใต้กรอบกฎหมายไทย",
+      "translations": {
+        "en": "BOI INVESTMENT PROMOTION SERVICES \"BOI\" or The Board of Investment of Thailand A Thai government agency under the Office of the Prime Minister responsible for promoting investment from both Thai and foreign investors, operating under the authority of the Investment Promotion Act B.E. 2520 . Primary BOI Objectives:\n-        Stimulate Thai economic growth\n-        Promote industries utilizing technology and innovation\n-        Distribute investment across various regions\n-        Support employment and Thai workforce skill development Relevant Legislation The BOI legal framework operates under: Investment Promotion Act B.E. 2520 and Board of Investment Committee Announcements establishing modern guidelines, such as:\n-        Announcement of promoted business categories\n-        Criteria and conditions for promotion applications\n-        Privileges granted to operators Promoted Business Categories BOI divides promoted businesses into 7 major categories:\n1.        Agriculture and Biotechnology — e.g., smart farming, processed food production\n2.        Mining, Metals, and Ceramics — e.g., steel or industrial ceramics production\n3.        Light Industry — e.g., textiles, leather goods, furniture\n4.        Machinery, Automotive, and Transportation Equipment — including automotive and aerospace components\n5.        Electronics and Electrical Appliances — e.g., chip manufacturing and electronic devices\n6.        Chemicals, Plastics, and Advanced Materials\n7.        Services and Public Utilities — e.g., data centers, software, logistics, medical services, education Operator Privileges\n8.        Tax Incentives\n-        Corporate income tax exemption for 3-8 years\n-        Import duty exemption on machinery\n-        Import duty exemption on raw materials used for export production\n-        Enhanced R&D expense deductions\n2.        Non-Tax Incentives\n-        Land ownership rights for foreign investors\n-        Right to import foreign experts\n-        Visa and work permit facilitation\n-        Freedom to remit foreign currency abroad Investment Promotion Zones BOI considers different privilege levels according to \"target areas\":\n-        General Area — Basic privileges\n-        Special Promotion Area — Enhanced privileges\n-        Special Economic Development Zone — Maximum privileges Additionally, \"Innovation and Technology Zones\" such as the EEC receive additional special privileges. Investment Promotion Application Process\n1.        Submit Application through BOI online system\n2.        Attend Interview and present business plan\n3.        Await Consideration and approval from BOI Committee\n4.        Receive Promotion Certificate\n5.        Implement Operations according to conditions and submit progress reports Legal Precautions\n-        Promoted operators must comply with BOI-stipulated conditions such as project commencement timeline, domestic raw material usage, employment requirements\n-        Non-compliance may result in privilege revocation\n-        Foreign nationals using \"nominees\" as shareholders may constitute evasion of the Foreign Business Act B.E. 2542 , which carries legal penalties Conclusion Thailand's investment promotion law under BOI is a crucial economic development tool. However, operators should thoroughly study legal conditions before applying to utilize privileges correctly and avoid revocation risks. Our law firm can provide consultation on company structure planning, BOI application, and regulatory compliance to ensure your business receives full privileges within the Thai legal framework.",
+        "ja": "タイ国投資委員会（BOI） は首相府の下にあるタイ政府機関であり、仏暦 2520 年（西暦1977 年）の投資促進法に基づき、タイ人および外国人投資家の双方からの投資を促進する役割を担っています。BOI の主な目的は以下の通りです：\n\n- 【関連法令】\n- タイ国投資委員会（BOI）は、1977年投資促進法および投資委員会の告示によって規定されています。これは時代に合わせた運用ガイドラインであり、以下を含みます：\n\n- 【投資促進の対象事業区分】\n- BOI は事業区分を次の 7 つの大分類に分けています：\n- １．農業・バイオテクノロジー\n- 例：スマート農業、加工食品製造\n- ２．鉱業・金属・セラミックス\n- 例：鉄鋼生産、産業用セラミック製造\n- ３．軽工業\n- 例：繊維、革製品、家具\n- ４．機械・自動車・輸送機器\n- 例：自動車部品、航空機部品\n- ５．電子・電気製品\n- 例：チップ製造、電子機器\n- ６．化学・プラスチック・先端材料\n- ７．サービス・公共施設\n- 例：データセンター、ソフトウェア、物流、医療、教育\n\n- 【事業者が受けられる特典】\n- １．税制上の特典（税法上の優遇措置）\n- ・法人所得税の 3〜8 年間の免除\n- ２．非税制上の特典（非課税の優遇措置）\n- ・ビザおよび労働許可証手続きの円滑化（Smart Visa）\n\n- 【投資促進地域（Zone）】\n- BOI は「対象地域」に応じて特典レベルを区分しています：\n- ・一般地域（Zone 1） — 特典が少ない\n- ・特別促進地域（Zone 2） — 特典が増える\n- ・特別経済開発区（Zone 3） — 最大特典\n- また、EEC（東部経済回廊）などの 「イノベーション・技術特区」 は追加の特別特典を受けられます。\n\n- 【BOI 投資促進申請の手続き】\n- １．BOI のオンラインシステムから申請\n- ２．面談を受け、事業計画を説明\n- ３．BOI 委員会による審査および承認待ち\n- ４．投資促進証明書（Promotion Certificate）を受領\n- ５．規定に基づいて事業を実施し、投資状況を報告\n\n- 【法的注意事項】\n- ・促進を受ける事業者は、プロジェクト開始期限、国内原材料使用、雇用条件など BOI の規定を遵守しなければならない\n- ・違反した場合、特典が 取消される可能性 がある\n- ・外国人が名義貸し（“名義人”）を利用して株主とする行為は、外国人事業法（1999 年）違反の可能性があり、法的処罰の対象 となる\n\n- 【まとめ】\n- タイの BOI の投資促進制度は、経済発展において非常に重要なツールです。\n- しかし、BOIからの承認取消のリスクを避け、特典を受け続けるためには、申請前に法的条件を十分に理解する必要があります。\n- 当法律事務所では、企業構造の設計、BOI 申請、法令遵守についてアドバイスを提供し、タイの法制度のもとで最大限の特典を得られるようサポートいたします。",
+        "zh": "",
+        "ko": ""
+      }
+    }
+  ]
+}

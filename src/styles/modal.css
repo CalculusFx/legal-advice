@@ -1,4 +1,4 @@
-/* Modal Overlay */
+
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -23,7 +23,7 @@
   }
 }
 
-/* Modal Content */
+
 .modal-content {
   background: linear-gradient(135deg, #ffffff 0%, #f9f7f4 100%);
   border-radius: 24px;
@@ -48,7 +48,7 @@
   }
 }
 
-/* Modal Icon Wrapper */
+
 .modal-icon-wrapper {
   width: 80px;
   height: 80px;
@@ -97,7 +97,7 @@
   }
 }
 
-/* Modal Icon */
+
 .modal-icon {
   font-size: 42px;
   font-weight: bold;
@@ -121,7 +121,7 @@
   }
 }
 
-/* Modal Title */
+
 .modal-title {
   font-size: 26px;
   font-weight: 500;
@@ -142,7 +142,7 @@
   }
 }
 
-/* Modal Message */
+
 .modal-message {
   font-size: 16px;
   line-height: 1.6;
@@ -153,7 +153,7 @@
   animation-fill-mode: backwards;
 }
 
-/* Modal Button */
+
 .modal-btn {
   background: linear-gradient(135deg, #E5C061 0%, #C9A961 100%);
   color: #241E15;
@@ -181,7 +181,7 @@
   box-shadow: 0 2px 12px rgba(229, 192, 97, 0.4);
 }
 
-/* Responsive */
+
 @media (max-width: 640px) {
   .modal-content {
     padding: 32px 24px 24px;
@@ -208,5 +208,38 @@
   .modal-btn {
     padding: 12px 40px;
     font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .modal-content {
+    padding: 28px 20px 20px;
+    max-width: 300px;
+  }
+  
+  .modal-icon-wrapper {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+  }
+  
+  .modal-icon {
+    font-size: 30px;
+  }
+  
+  .modal-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .modal-message {
+    font-size: 13px;
+    margin-bottom: 24px;
+  }
+  
+  .modal-btn {
+    padding: 10px 32px;
+    font-size: 14px;
+    width: 100%;
   }
 }
