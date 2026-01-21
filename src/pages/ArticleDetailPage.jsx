@@ -3,6 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import { useI18n } from '../i18n';
 import Header from '../components/Header_Other';
 import Contact from '../components/Contact';
+import articlesData from '../data/articles.json';
 import '../styles/article-detail.css';
 
 
@@ -40,19 +41,17 @@ export default function ArticleDetailPage() {
   };
 
   useEffect(() => {
-    fetch('/src/data/articles.json')
-      .then(res => res.json())
-      .then(data => {
-        setAllArticles(data.articles || []);
-        const articleId = parseInt(id);
-        const found = data.articles.find(a => a.id === articleId);
-        setArticle(found);
-        setLoading(false);
-      })
-      .catch(err => {
-        console.error('Error loading articles:', err);
-        setLoading(false);
-      });
+    const articles = articlesData.articles || [];
+    setAllArticles(articles);
+    
+    const articleId = parseInt(id);
+    const found = articles.find(a => a.id === articleId);
+    
+    console.log('Article ID:', articleId);
+    console.log('Found article:', found);
+    
+    setArticle(found);
+    setLoading(false);
   }, [id]);
 
   
