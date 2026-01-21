@@ -151,10 +151,10 @@ export default function Services(){
                           <div className="accent" />
                           <h4>{it.title}</h4>
                           <p className="service-mini">{it.desc}</p>
-                          {it.link ? (
+                          {it.id ? (
                             <Link 
                               className="btn white ghost" 
-                              to={it.link}
+                              to={`/services/${it.id}`}
                               onPointerDown={(e) => e.stopPropagation()}
                               onClick={(e) => {
                                 e.stopPropagation();
@@ -163,7 +163,7 @@ export default function Services(){
                                   e.preventDefault();
                                   console.log('Click prevented - user was dragging');
                                 } else {
-                                  console.log('Navigating to:', it.link);
+                                  console.log('Navigating to:', `/services/${it.id}`);
                                 }
                               }}
                             >

@@ -31,7 +31,7 @@ export default function MegaMenu({ open, inline = false, onClose }) {
             itemsArray.map((item, index) => (
               <Link 
                 key={index} 
-                to={item.link} 
+                to={`/services/${item.id}`}
                 className="mega-item"
                 onClick={onClose}
               >

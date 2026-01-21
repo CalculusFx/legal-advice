@@ -45,109 +45,109 @@
     "title": "Our Services",
     "items": [
       {
+        "id": 1,
         "title": "Civil Cases",
-        "desc": "Contract, property rights, enforcement, etc.",
-        "link": "/services/คดีความ/1"
+        "desc": "Contract, property rights, enforcement, etc."
       },
       {
+        "id": 2,
         "title": "Criminal Cases",
-        "desc": "Bail, case defense, legal opinions, etc.",
-        "link": "/services/คดีความ/2"
+        "desc": "Bail, case defense, legal opinions, etc."
       },
       {
+        "id": 3,
         "title": "Consumer Cases",
-        "desc": "Product purchase, services, finance, telecom, etc.",
-        "link": "/services/คดีความ/3"
+        "desc": "Product purchase, services, finance, telecom, etc."
       },
       {
+        "id": 4,
         "title": "Labor Cases",
-        "desc": "Termination, compensation, wages & benefits, etc.",
-        "link": "/services/คดีความ/4"
+        "desc": "Termination, compensation, wages & benefits, etc."
       },
       {
+        "id": 5,
         "title": "Juvenile and Family Cases",
-        "desc": "Divorce, custody, inheritance, etc.",
-        "link": "/services/คดีความ/5"
+        "desc": "Divorce, custody, inheritance, etc."
       },
       {
-        "title": "Bankruptcy Cases",
-        "desc": "Personal/corporate bankruptcy, enforcement",
-        "link": "/services/คดีความ/7"
-      },
-      {
-        "title": "Tax Cases",
-        "desc": "Income tax, VAT, business/industry, etc.",
-        "link": "/services/คดีความ/8"
-      },
-      {
-        "title": "Legal Acts & Contracts",
-        "desc": "Purchase/lease agreements, commercial contracts, etc.",
-        "link": "/services/ธุรกิจ/10"
-      },
-      {
-        "title": "Business & Investment",
-        "desc": "Income tax, VAT, business/industry, etc.",
-        "link": "/services/ธุรกิจ/11"
-      },
-      {
-        "title": "Company Registration",
-        "desc": "Company establishment/dissolution registration, etc.",
-        "link": "/services/ธุรกิจ/12"
-      },
-      {
-        "title": "Investment",
-        "desc": "Real estate, large projects, deal structure",
-        "link": "/services/ธุรกิจ/13"
-      },
-      {
-        "title": "Accounting",
-        "desc": "Tax filing, social security, financial statements, etc.",
-        "link": "/services/ธุรกิจ/16"
-      },
-      {
-        "title": "Corporate Legal Advisor",
-        "desc": "Business legal consultation, contract drafting, etc.",
-        "link": "/services/ธุรกิจ/20"
-      },
-      {
-        "title": "Visa and Work Permit Services",
-        "desc": "Student visa, tourist visa, marriage visa",
-        "link": "/services/วีซ่า/14"
-      },
-      {
-        "title": "Investigation Services",
-        "desc": "Asset investigation, infidelity investigation, business investigation, etc.",
-        "link": "/services/สืบ/15"
-      },
-      {
-        "title": "Notarial Services",
-        "desc": "Notarization for international use",
-        "link": "/services/เอกสาร/17"
-      },
-      {
-        "title": "Translation Services",
-        "desc": "Official documents, business, legal translation, etc.",
-        "link": "/services/เอกสาร/18"
-      },
-      {
-        "title": "Property Finder for Foreigners",
-        "desc": "House, condo, legal consultation",
-        "link": "/services/อสังหา/19"
-      },
-      {
+        "id": 6,
         "title": "Intellectual Property & International Trade",
-        "desc": "Trademarks, copyrights, etc.",
-        "link": "/services/คดีความ/6"
+        "desc": "Trademarks, copyrights, etc."
       },
       {
-        "title": "BOI - Tax Exemption for Foreign Workers",
-        "desc": "BOI benefits, tax exemption, land ownership",
-        "link": "/services/ธุรกิจ/21"
+        "id": 7,
+        "title": "Bankruptcy Cases",
+        "desc": "Personal/corporate bankruptcy, enforcement"
       },
       {
+        "id": 8,
+        "title": "Tax Cases",
+        "desc": "Income tax, VAT, business/industry, etc."
+      },
+      {
+        "id": 9,
         "title": "Other Legal Cases",
-        "desc": "Consultation and other case handling services",
-        "link": "/services/คดีความ/9"
+        "desc": "Consultation and other case handling services"
+      },
+      {
+        "id": 10,
+        "title": "Legal Acts & Contracts",
+        "desc": "Purchase/lease agreements, commercial contracts, etc."
+      },
+      {
+        "id": 11,
+        "title": "Business & Investment",
+        "desc": "Income tax, VAT, business/industry, etc."
+      },
+      {
+        "id": 12,
+        "title": "Company Registration",
+        "desc": "Company establishment/dissolution registration, etc."
+      },
+      {
+        "id": 13,
+        "title": "Investment",
+        "desc": "Real estate, large projects, deal structure"
+      },
+      {
+        "id": 14,
+        "title": "Visa and Work Permit Services",
+        "desc": "Student visa, tourist visa, marriage visa"
+      },
+      {
+        "id": 15,
+        "title": "Investigation Services",
+        "desc": "Asset investigation, infidelity investigation, business investigation, etc."
+      },
+      {
+        "id": 16,
+        "title": "Accounting",
+        "desc": "Tax filing, social security, financial statements, etc."
+      },
+      {
+        "id": 17,
+        "title": "Notarial Services",
+        "desc": "Notarization for international use"
+      },
+      {
+        "id": 18,
+        "title": "Translation Services",
+        "desc": "Official documents, business, legal translation, etc."
+      },
+      {
+        "id": 19,
+        "title": "Property Finder for Foreigners",
+        "desc": "House, condo, legal consultation"
+      },
+      {
+        "id": 20,
+        "title": "Corporate Legal Advisor",
+        "desc": "Business legal consultation, contract drafting, etc."
+      },
+      {
+        "id": 21,
+        "title": "BOI - Tax Exemption for Foreign Workers",
+        "desc": "BOI benefits, tax exemption, land ownership"
       }
     ]
   },
